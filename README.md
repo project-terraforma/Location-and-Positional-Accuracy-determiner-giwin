@@ -60,3 +60,8 @@ This project aims to:
 ## Project Status
 
 🚧 **Work in progress** — this repository will evolve as experimentation, modeling, and evaluation continue.
+
+## Commit 1 - Discoveries on the data set
+- Data is in Well Known Binary Format
+- Contains 3425 points of data
+- 9 points are outside the boundary box of said data points
