@@ -1,0 +1,501 @@
+id,primary_name,primary_category,alternate_categories,source_datasets,original_lon,original_lat,truth_lat,truth_lon,notes,offset_meters
+08f28d5428cd954e0338fdd58d90561a,La Belle Elaine's Bridal,bridal_shop,"[""women's_clothing_store"" 'clothing_store']",meta,-122.3253727,47.6337251,47.63371470714007,-122.32551753929104,Standalone Store,10.914257951041392
+08f26e8070c2d6a9033d1fa93bda0a8f,Thunderbowl,beer_bar,['pub' 'bowling_alley' 'bar' 'active_life' 'restaurant'],Microsoft,-94.98192,35.91416,35.91490595206748,-94.98480402646793,Standalone Store,272.6472452085393
+08f48981360c349403c80ceff2683b6b,Hofbrau RV Park,rv_park,['campground' 'park'],meta,-98.3315032,30.4604909,30.4596926717736,-98.33111680379416,RV Park,96.17569032026543
+08f29a0b5b4a978203d20beb95a197d2,Masterlink Sausage and Meats,butcher_shop,['meat_wholesaler' 'grocery_store'],Microsoft|meta,-117.8902723,33.8731889,33.87319232061605,-117.89051660155144,Standalone Store,22.557654850820388
+08f28f00f3d4b585032f78576978daf6,Additional Self Storage,self_storage_facility,['storage_facility' 'home_improvement_store'],Microsoft|meta,-122.621135,45.6675478,45.66756362154205,-122.6213190128032,Storage Area,14.406589128213747
+08f44c1ce96aa98603ccdb7d8cd55adb,ABC Childcare and Learning Center,day_care_preschool,['home_service' 'school'],meta,-83.9034804,33.4623725,33.46247177557536,-83.90355368357167,,12.964264796367669
+08f44a1b95a4222503b4488015a79425,Camden Doral Apartments,accommodation,['real_estate_service' 'landmark_and_historical_building'],Microsoft|meta,-80.3704694,25.8165997,25.816621132452084,-80.36996955134732,Large Apartment Complex ,50.08999883504665
+08f446c323aec04203876f8bc173c15e,Floral Supply Syndicate,flowers_and_gifts_shop,['storage_facility' 'arts_and_crafts'],meta,-95.4067417,29.8268755,29.826951635106525,-95.40702547811291,Standalone Store,28.653873571631845
+08f2a84688d13b5103deb75476e2b8d3,Sweet Hut Chinese Restaurant,asian_fusion_restaurant,['noodles_restaurant' 'pan_asian_restaurant' 'soup_restaurant' 'restaurant'],Microsoft,-80.1938409,40.2132756,40.213172712239846,-80.19387411400793,Standalone Store,11.783101590226755
+08f44c1a81a3404d03b5bfe9e7747c1a,Express/Atlantic Bail Bonding,bail_bonds_service,,Microsoft,-84.3966903686523,33.7481002807617,33.748217749220025,-84.39661328241648,Inside building,14.879845047160188
+08f2b8da4c86c6c1032b4786938b26e8,"Jewell Transport, Inc.",junk_removal_and_hauling,['road_structures_and_services' 'travel'],Microsoft,-72.3870884,43.3483126,43.341009317124325,-72.39050160754078,Far off and pin is the entrance road,857.7110415738598
+08f446d83255e5560389c6d7914a765e,Farm to Market Produce Company,sandwich_shop,['fruits_and_vegetables' 'grocery_store'],meta,-96.2555874,29.9510923,29.95113651575721,-96.2555888170102,Standalone store,4.918462965369175
+08f48ee62d2d091b03a5bb4b9cfaa3ad,Hidden Oasis,bed_and_breakfast,['breakfast_and_brunch_restaurant' 'hotel'],meta,-110.0390495,32.0302883,32.0304029324164,-110.03893502185788,,16.701261053661895
+08f2660ccc7ab24003770ff2c38db1dd,Krispy Krunchy Chicken,fast_food_restaurant,['chicken_restaurant' 'gas_station'],meta,-87.999008,40.752235,40.75213444101413,-87.99893874731778,Inside Gas Station,12.61184694237359
+08f2661a16c4a6de0394c2b997482f2a,Subway,sandwich_shop,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-86.3254779,39.7642293,39.764202002597465,-86.32543810063095,Part of Strip Mall,4.559108932502585
+08f2a931a9d63118036d6d7b8b12453f,Home Emporium,home_goods_store,['home_improvement_store'],meta,-84.4646029,39.2848248,39.28486952466668,-84.46486445759976,,23.053935578407497
+08f2a339a02ceb7603e502950fefb701,Extra Space Storage,self_storage_facility,['storage_facility'],Microsoft|meta,-71.1753008,42.2260099,42.22621009813906,-71.17521899368721,,23.257800947489667
+08f27504da60cd4603c96460b761d69a,"Mini Mobile Cabins, LLC",cabin,['holiday_rental_home' 'travel'],meta,-92.0248894,45.5265257,45.526531409884505,-92.0247668019561, ,9.571569651364255
+08f2a956b4c4e0c103e3a35c29a7fd24,Starbucks,coffee_shop,['restaurant'],Microsoft,-83.0952985,40.0641261,40.0641261,-83.09531368070265,Inside Supermarket,1.2918809377855713
+08f446e2248194530328289b55bb672e,Exxpress Mart 24,convenience_store,['travel' 'shopping'],meta,-94.1665339,30.324578,30.324578,-94.1665339,Overture Coordinate right in front of entrance,0.0
+08f26cc55319137503a9f7a7f4ad9e52,Mazzio’s Pizza & Wings,pizza_restaurant,['food' 'restaurant'],Microsoft,-96.9851585,34.5067431,34.50677154407331,-96.98509714309284,,6.450795540539084
+08f268cdac9ad71b03c7566f8758d236,Indexed I/O,software_development,,Microsoft,-104.982516,39.7723,39.77219802843083,-104.98248285891115,,11.68712368138347
+08f2664ca94012dc030f63f7e23fe7cb,IMD Guest House Foundation,hotel,['accommodation' 'motel'],meta,-87.6756313,41.8710987,41.871067531430676,-87.67591272492352,,23.558629328959068
+08f2a31ce8b94cb303eab6152e093fa6,Brasswood Inn,hotel,['bed_and_breakfast' 'accommodation'],meta,-70.1898014,42.0479825,42.04797171798304,-70.18982011856222,,1.9560984093975742
+08f44a829db7442d03c72d9448c9f367,Corey's Bagels On the Beach,bagel_shop,['delicatessen' 'sandwich_shop'],meta,-80.5884816,28.1388035,28.138937215031017,-80.5884778030664,,14.873093429855096
+08f26628daaa407003ea92bc6480f91b,The Hub,smoothie_juice_bar,,meta,-88.9550856,40.473398,40.47331971579072,-88.95486756068338,,20.394300754772615
+08f0c73ba586bac303f513569c367a03,Cherish the Moments,event_photography,['professional_services' 'event_planning'],meta,-149.3326885,61.5752691,61.57524648066315,-149.33250086890044,,10.244713150260882
+08f4446366c49561036fa9c50a0ee874,Genia Nicole Photography,professional_services,,meta,-90.9209659,30.2660838,30.265822190749255,-90.92092768745128, ,29.320199039425145
+08f4440c1a1854ee0304800dc17e6154,Capital Funeral Home Inc,funeral_services_and_cemeteries,['insurance_agency' 'mortgage_broker'],meta,-91.1544722,30.4533413,30.4533413,-91.15448585479372,,1.3088763985828786
+08f2a1350025a87303f97d18cee6c9f5,uBreakiFix by Asurion,mobile_phone_repair,['it_service_and_computer_repair'],Microsoft,-74.8952886,40.1675061,40.16757755243528,-74.89519675795955,,11.136706572141499
+08f27418eb6363000337e6f8cbc3c901,Goodwill,discount_store,['shopping' 'bar'],meta,-85.598401,44.732955,44.73251800288326,-85.62108920433164,Very likely mislocated,1792.8587252003626
+08f29a19b28d06000322a7b0198ff445,A a Mini Mart,grocery_store,['convenience_store' 'gas_station'],meta,-118.3669817,33.9767493,33.97672776508999,-118.36707401289432, ,8.84257112443499
+08f44cc29ad588eb03c87215681e599e,Elder's Ace Hardware,hardware_store,['home_improvement_store' 'shopping'],Microsoft|meta,-84.9482109,34.8940804,34.8940804,-84.9482109,Near Entrance ,0.0
+08f4468641964da90370990c3131f372,VisionQuest RTC Lufkin,event_planning,,meta,-94.81876,31.26139,31.257508008856657,-94.8128346904084,Pin far away from building,709.6048637578598
+08f26c8c8d36363503eadc35ea7b5d77,Hills Cafe,cafe,,meta,-97.1441505,33.6240066,33.62394594871106,-97.1441505,Inside facing,6.744115624525704
+08f44e8cc908631a031c4515674b2704,Poplar Point Christian Camp,campground,['religious_organization' 'community_services_non_profits'],meta,-86.2148021,32.9707065,32.97141237799365,-86.21456146854412,,81.63691467341641
+08f2a306631668a303eb5d57a51612a1,Dependable Cleaners,dry_cleaning,['sewing_and_alterations' 'beauty_and_spa'],Microsoft|meta,-71.0756928,42.3512907,42.351319245834674,-71.07578838359322,,8.471804404764788
+08f288423356c91103ca007f24b8f280,Cafe Rio Fresh Modern Mexican,fast_food_restaurant,['mexican_restaurant' 'restaurant'],Microsoft,-116.35383,43.62281,43.62255187872181,-116.35366570889614,,31.60185859394713
+08f444caac6d4822035ee4516f3dab07,El Patio Mexican Grill,mexican_restaurant,['restaurant' 'bar_and_grill_restaurant'],meta,-93.8298568,32.3123109,32.312220238144334,-93.82989864213944, ,10.820870753280811
+08f4451ba27a2663031e322784658ff9,Record Nations,shredding_services,['professional_services' 'storage_facility'],meta,-89.4087539,31.311877,31.311877,-89.40930492690214,Service inside another business,52.34728571721446
+08f5d11434884420033a0a2d37559cad,Big Island Bakehouse,bakery,['shopping' 'restaurant'],meta,-155.0389922,19.6216604,19.62160906029463,-155.03896496904173,,6.381534125956173
+08f2a107289810f60383b811cc101437,"A.E.C. CONSULTING & EXPEDITING, INC.",engineering_services,['architect'],Microsoft,-74.0096527,40.7118667,40.71194631563153,-74.00956090669165,,11.757209340303628
+08f2656722980596039857f5c7c1ddfa,Clarks Motel,hotel,['motel' 'accommodation'],meta,-94.6494782,39.0495542,39.04959291466311,-94.64953355822873,,6.433060428488969
+08f2aa8c7626894b035c8e09f81ccc3f,Don Tigre Mexican Cuisine Bar - Locust Point,mexican_restaurant,['eat_and_drink'],Microsoft|meta,-76.6006455,39.2715289,39.27163025545208,-76.60090856380143,,25.294598050464867
+08f2a1055c271aea032bffcbd24fcc4b,Kitchen Fair,home_improvement_store,['shopping' 'restaurant'],meta,-74.141723,40.9500947,40.950159841341126,-74.1415054098855,,19.65715469282617
+08f2a98ba908c89403ed8847c6c2854b,Rc's Country Store & Fillin' Station,convenience_store,['gas_station' 'flowers_and_gifts_shop'],meta,-82.1671691,37.619687,37.619607723292226,-82.16768583612371,,46.357544271225905
+08f2a3361b34453303f40ff4ed3b9e6b,Fish Connection,hunting_and_fishing_supplies,['active_life' 'outdoor_gear'],meta,-72.0647736,41.4758974,41.4758974,-72.0647736,Entrance,0.0
+08f2aae16aaae71403352f18ee18d46d,MAR BAR TIRE SERVICE INC,tire_shop,['automotive' 'retail'],Microsoft,-77.09127050656787,39.802155968849696,39.8027619249924,-77.09092458258718,,73.57460543682843
+08f260e253aa5cf1035e0fb535525c7d,Holiday Inn Express & Suites Omaha-Southwest,hotel,['travel'],Microsoft|meta,-96.08033,41.214238,41.21403198280735,-96.08066005356304,,35.87442334839215
+08f29124cb25b61203735df89b69e4e2,US Navy Enlisted Recruiting,employment_agencies,['government_services'],Microsoft,-119.1791746,34.2270494,34.227054164389145,-119.17905476267964,Inside US Army Recruitment Center,11.030290622184534
+08f2a10755d0da1c03155a1195004543,Kung Fu Tea,bubble_tea,['restaurant' 'fast_food_restaurant'],meta,-74.0266653,40.6208711,40.62082997105552,-74.02666303933796,,4.5773084049083534
+08f2a88c18ac486303d2d8df15029c9c,Kroger,supermarket,['grocery_store' 'pharmacy'],Microsoft|meta,-79.2948345,37.3642811,37.36452748793427,-79.2949217024923,,28.460381976304635
+08f2a8b4c25012550374f1c345937cc5,M Creative,graphic_designer,['business_advertising' 'professional_services'],meta,-80.2461138,36.1009441,36.100962136700986,-80.2460996587559,,2.374141843208489
+08f26c865814959b036eb5dec0dc2d7c,8500 North Stemmons Home Base,event_planning,['real_estate' 'community_services_non_profits'],meta,-96.871707,32.8280489,32.82790635508057,-96.87171406220794,,15.864001745662376
+08f44eb6a876615d03149a9ffcf3d74b,Dollar General,discount_store,['arts_and_crafts'],meta,-85.7978632,34.5629341,34.562919464110486,-85.79799932838625,,12.57098687904269
+08f29a56ab08acd003403a723d19d4f9,Hawk Importers,professional_services,['business' 'building_supply_store'],meta,-118.1654016,33.8749788,33.8749788,-118.1654016,Accurate,0.0
+08f29a0993723d0e03090c0c32eb0cb2,"The Grossman Law Firm, APC",wills_trusts_and_probate,['estate_planning_law'],Microsoft,-117.1663171,33.521049,33.520948043262244,-117.16648201846112,Part of big building,18.96703441005185
+08f2659b598ec82503a358affd0ee02e,Robert Half,employment_agencies,['business' 'professional_services'],meta,-89.8381734,35.0987024,35.0987024,-89.8381734,Part of big building,0.0
+08f26de6a02c967003fecdb22a4db690,Red Roof,hotel,['travel' 'transportation'],meta,-101.8459139,33.5321521,33.5321521,-101.8459139,Accurate,0.0
+08f275d769b29a6903bf058fddfc4235,Khanya Corporation,marketing_agency,['professional_services'],meta,-87.9406562,43.0422493,43.04215117104219,-87.94063786643183,,11.012693278575279
+08f488b6d30e88920318f8e37351abfd,C DUBBS Remodeling,home_improvement_store,['contractor'],meta,-101.4557177,32.2435055,32.24345459323772,-101.45562042458988,,10.75811908174229
+08f29b6d336d57330305e311d56e3d68,Zazu Pannee Park Regent,accommodation,['real_estate' 'landmark_and_historical_building'],meta,-112.049418,33.487662,33.48763263531402,-112.0493780517596,,4.938242783676488
+08f2ad035aaf4ac2039c484e6d8e16ee,Guidry Coastal Architecture,architectural_designer,['engineering_services' 'real_estate_agent'],meta,-77.8568363,34.1893241,34.18929344983329,-77.85688846134013,,5.885043429498493
+08f44a18d80a496c0370558e3a242b92,Ventura Business Solutions,professional_services,['event_photography'],meta,-80.2547239,25.76228,25.76231069405408,-80.25489200876366,,17.177352963980603
+08f274b0f0253ab303331772eb1801d6,Subway,sandwich_shop,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-85.9705754,41.6584277,41.658473295724384,-85.97050010153863,,8.052095949395145
+08f44a139437335103e06a38aec56a5e,Hoffer Pest Solutions,pest_control_service,,Microsoft,-80.1192,26.137763,26.137871580282944,-80.1192,,12.073576596989765
+08f2a100cac0e4f1033abefc7d8474da,McDonald's,fast_food_restaurant,['burger_restaurant' 'restaurant'],Microsoft|meta,-73.8976528,40.6776008,40.6776056208898,-73.89760693066297,,3.9050845452632528
+08f28f0334176af50374635d3a065495,A&T Resale,thrift_store,['shopping' 'home_and_garden'],meta,-122.9943018,45.596204,45.59627673338491,-122.99439045521356,,10.629579716922724
+08f44d82898c2d1e032594cbf34cbeb1,The Drug Store Vale,pharmacy,['medical_supply' 'shopping'],meta,-81.4802819,35.5682452,35.56807697262841,-81.48050715566735,,27.658962389456974
+08f444112656304303fa03198aedec5f,Motel 6 Alexandria,hotel,['motel' 'insurance_agency'],Microsoft|meta,-92.4785814,31.2940962,31.294093830323405,-92.47862048416194,,3.7230131768644124
+08f274da5a31e0c403e9d27d16968c33,Autoliv Americas,professional_services,['automotive_parts_and_accessories'],meta,-83.2742785,42.6944394,42.69495492813462,-83.27391061638387,,64.7301489421362
+08f29a56ce2e96e1033dbdf3c9f9851a,Sam's Watermelons,grocery_store,['fruits_and_vegetables' 'fast_food_restaurant'],meta,-118.3004849,33.9825335,33.98253191575294,-118.30040876894788,,7.021776586878623
+08f29a578bda4450037d7222e42f4da1,Jordanah,event_planning,['business_advertising' 'advertising_agency'],Microsoft|meta,-118.1321789,33.7589515,33.7589515,-118.1321789,Accurate,0.0
+08f262808a182014037ee27b008cff1a,Forest City Inn,hotel,['accommodation' 'motel'],meta,-93.6366474,43.2462063,43.24608603316123,-93.63649916612984,,17.971985126858677
+08f2aa845eb8520103a7f17fd1fc691f,Bloomingdale Wine and Spirits,liquor_store,['bar'],meta,-77.0123595,38.915465,38.91542249714226,-77.01229957026192,,7.015710516565095
+08f2b8e6a104c82d03642c26879a2511,T R Jetty Funeral Home Inc,funeral_services_and_cemeteries,['public_service_and_government'],meta,-76.0864194,44.238381,44.23841468133093,-76.08645750926452,,4.821159491439525
+08f2ab31ad9098c00350623fdcc1f6e6,Mi Bella Casa Furniture,furniture_store,['mattress_store' 'shopping'],meta,-82.0068383,41.3925935,41.3927305645838,-82.00678272516308,,15.930365750933563
+08f44ccd946068d803169fdd034b2789,La Pequena Food Mart,supermarket,['grocery_store' 'convenience_store'],meta,-84.55702,33.9369407,33.936978649838295,-84.55706343881234,,5.819445533144614
+08f2a14a83b9a28a0372332d87fe17d4,Delmar Products,professional_services,['shopping'],meta,-72.7501828,41.6417356,41.64144818708631,-72.7501828,,31.95885785357366
+08f264930874b80a03c3903fe19da3b0,Rugged Portable Computers LLC,it_consultant,['it_service_and_computer_repair' 'computer_hardware_company'],Microsoft|meta,-86.7808780785262,34.67242691543611,34.67163090319872,-86.78324538988565,far away,233.88410264510551
+08f28308c5c1359803c784f80ec0f24f,Soulfully Dope Kitchen and Catering,caterer,['diner'],meta,-122.369342,37.9283569,37.928356354430015,-122.36928894059568,,4.654147165796697
+08f2832ab4703752037ff18aada0852a,Denio's Roseville Farmers Market & Swap Meet,farmers_market,['flea_market' 'shopping'],meta,-121.3057713,38.7438066,38.74379617339135,-121.30459392792872,,102.11620811883967
+08f2659b08855a7503594e72bf627c4c,Yale Tire and Auto Tech,tire_shop,['retail'],Microsoft,-89.9271509,35.2208683,35.22088177822119,-89.92748888174413,,30.73848432286706
+08f264a86a6534b0038003a5f844d012,Finish Line,shoe_store,['sports_wear' 'clothing_store'],Microsoft|meta,-88.8306536,35.6572467,35.65670680242644,-88.82905015574795,Closest entrance,156.81492688516116
+08f29a1dabb5cceb03d1373418c436fb,Docnak Photography,professional_services,,meta,-118.0159113,34.1184416,34.1184416,-118.0159113,Accurate,0.0
+08f26cb91ed10d0503124c1f695e4345,South Dallas Community Market,grocery_store,['community_services_non_profits' 'supermarket'],meta,-96.7531314,32.7503413,32.75048964739549,-96.7532330332353,,19.037820821829442
+08f2696148324c1303a942ec1dc12a18,Memos Fruits,eat_and_drink,['restaurant' 'specialty_grocery_store'],meta,-111.9398212,40.7465874,40.746920660199386,-111.9405886511177,,74.51839437093601
+08f29b6d06c5459d0366de766faa0a5e,Blade Editorial Inc,professional_services,['event_photography' 'broadcasting_media_production'],meta,-112.0734938,33.4837069,33.48344137831128,-112.0730728809923,,48.94451415828871
+08f444d68e8e0c09032deb7ed8091c7f,Amigo Juan,mexican_restaurant,['restaurant' 'cafe'],meta,-94.0661089,33.467471,33.467471,-94.0661089,Maybe Old,0.0
+08f2a8ba966e45ab03c0f6e2181f87a6,Burlington Outlet Village,shopping_center,['landmark_and_historical_building' 'fountain'],meta,-79.4358,36.0669,36.06953228188356,-79.43378876502707,Main entrance into Plaza,344.01949187944007
+08f29a1d2e4258db03b7c4087eb8f2a9,Nora Lighting,lighting_store,['commercial_industrial'],Microsoft|meta,-118.1371671,34.0008164,34.000732074746104,-118.13742478572205,,25.538108278663046
+08f2a100eb3b6a58036b1408e30d72b1,Ace Staffing Agency,professional_services,['employment_agencies' 'public_service_and_government'],meta,-73.8213263,40.6869167,40.686896342571366,-73.82134985032017,,3.0111587578538868
+08f4455465c0d06e03aebe30a5ea43be,Beachview Vacation Cottages of the Mississippi Gulf Coast,hotel,['holiday_rental_home' 'cottage'],meta,-89.0319032,30.3835863,30.384193797410433,-89.03180108212234,Main Access,68.25714935383081
+08f2ab251166172503fd7ee6925ae721,Busch's Fresh Food Market,international_grocery_store,['supermarket' 'retail'],Microsoft,-83.4853147,42.3061464,42.306270883637275,-83.48578345317335,,40.957852097240036
+08f139a52202a45d03d36833612926cb,Pybus Point Lodge,lodge,['resort' 'accommodation'],meta,-134.1342328,57.3058691,57.30585812954054,-134.13423041787826,On Island,1.2282213870623016
+08f2aa1154a2d611034a6bafc24aa955,Indies,bar,['beer_garden' 'pub'],meta,-76.559231,40.788972,40.78893879865477,-76.559231,,3.6918211477561247
+08f2ab2d82bb295e031c0e74eeede8ae,Pizza Hut Express,pizza_restaurant,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-83.2933189,42.6036334,42.60392272460285,-83.29343829401694,Inside target,33.622754430051934
+08f44da876976af303393dfd2f3fb439,The Honey Baked Ham Company,restaurant,['sandwich_shop' 'caterer'],Microsoft|meta,-80.5795904,35.0236581,35.023634812670295,-80.57939720785691,,17.78147996154967
+08f2659a0cc6590803dd941c90df1da4,FairBridge Inn Express Memphis,hotel,['accommodation'],meta,-89.9663657,35.0912225,35.09129364962038,-89.96630318493096,,9.743882042095475
+08f2a92571072446034e488e8ffa7355,Taco Bell,fast_food_restaurant,['mexican_restaurant' 'restaurant'],Microsoft|meta,-85.7105517,40.1012193,40.10121837827355,-85.7105935162739,,3.558111750180463
+08f29a1d4c171cc603bebdd37dd9b4c2,UPS Access Point location,courier_and_delivery_services,['shipping_center'],Microsoft,-118.3212941,34.1201493,34.120046080314445,-118.32143230677131,,17.1346319008465
+08f489aa2d07686503f81f7bf04af9a6,Insta Ramen,restaurant,['diner'],meta,-97.7384345,31.0806992,31.0806992,-97.7384345,Accurate,0.0
+08f2ad37a14343850391dd40081f8e9f,La Taqueria,mexican_restaurant,['restaurant' 'texmex_restaurant'],meta,-79.0216397,33.5810797,33.58099369521542,-79.02158498735068,,10.823375165304
+08f275d29d245681034cfc53318aa7de,Cubanitas Oak Creek,cuban_restaurant,['restaurant' 'eat_and_drink'],Microsoft|meta,-87.9179407,42.899806,42.89992948144125,-87.91784832606079,,15.657030272100501
+08f29b6d5d352755036ac504152622eb,Tempus West Valley Realty,videographer,['real_estate_agent' 'real_estate_service'],Microsoft,-112.27886708465576,33.63854444930663,33.638485699466095,-112.27913274424463,,25.44633761473954
+08f260d87291a36303e6c8529d091026,MACLYN DSM,advertising_agency,,Microsoft,-93.6305671,41.5866558,41.58575816503603,-93.63038311071163,,100.97863212389325
+08f262cac8b6eb1e0391227e7055806f,Tilly's American Travelers RV Park,rv_park,['campground' 'bar'],meta,-92.5343629,44.153446,44.15288688350256,-92.5336666396509,,83.37132018441979
+08f44438aab12ab603d0468da22e9a5e,CubeSmart Self Storage,self_storage_facility,['storage_facility'],Microsoft|meta,-91.3462035,31.5639683,31.564998664002356,-91.34625714765586,,114.6839393129207
+08f2aa80214d98ae03e4bdcff9f59a06,Joss Café,sushi_restaurant,['japanese_restaurant' 'cafe'],meta,-76.4909511,38.9779122,38.97796633841696,-76.4909511,,6.01991730262208
+08f2ab3850aca311032a958e700a41e6,Chuck Brown II Bail Bonds,bail_bonds_service,['financial_service' 'professional_services'],meta,-81.5647179,41.4589502,41.45893293179596,-81.56463328812698,,7.307722305662435
+08f29a109291a22203ed0bdb701120bc,Starbucks,coffee_shop,['cafe' 'american_restaurant'],Microsoft|meta,-118.1841834,34.6032754,34.60315702986284,-118.18440804281884,,24.41258427900158
+08f265b48c6ea6d803c7d68182ab94f8,Nabholz,construction_services,['contractor' 'professional_services'],meta,-92.3908894,34.7375866,34.737657542611714,-92.3910051350645,,13.193507308351556
+08f2aa8d1dc436ac03ab8fa08d441cc3,A & A Hearing Group,hearing_aids,['medical_supply' 'retail'],Microsoft,-76.62215424,39.43168259,39.4318710683958,-76.62179007841037,,37.648612966120524
+08f44d071b58a00403e9419f27fabdf5,Waters Edge Shem Creek,bar,['restaurant' 'sushi_restaurant'],meta,-79.881891,32.7926738,32.792785244349794,-79.8819958796682,,15.801033128441116
+08f44c42e312cac103267191aa401ab4,Perfect Equipment Company,professional_services,['logging_services' 'agriculture'],meta,-83.69752,32.32576,32.32922245214229,-83.70158119527439,,542.0722159882904
+08f4891835a70b4103fe4690ab6900aa,Mcconnell State Prison,accommodation,['religious_organization' 'church_cathedral'],meta,-97.7198516,28.3732004,28.37300704615633,-97.71950916156923,,39.80848943319494
+08f2a10046b45c73034fe2d3c453591b,Phoenix Building Products,building_supply_store,['professional_services'],Microsoft|meta,-73.6725282,40.7475213,40.747826109318225,-73.67270443992824,,37.00231385124522
+08f264620c6d462503efe86fc222ba15,Bellerive Gardens Cemetery,funeral_services_and_cemeteries,['public_service_and_government' 'professional_services'],meta,-90.4697333,38.6666521,38.66683622140858,-90.47022039732464,,46.985050412020364
+08f2759301db539d0356df261133ee31,Palatine Farmers' Market,farmers_market,['grocery_store' 'shopping'],meta,-88.0469241,42.1128041,42.11304708311865,-88.04693287226836,,27.028177901544527
+08f2664c1e12970c0346c7c9976d89f7,SEPHORA,cosmetic_and_beauty_supplies,['makeup_artist'],meta,-87.6228929,41.8979769,41.89801024557562,-87.62392505976467,,85.5084407402495
+08f44d070acc6b2c03d8c7777106600f,Louis Vuitton,fashion_accessories_store,['boutique' 'shopping'],Microsoft|meta,-79.9329453,32.7809107,32.7809479845075,-79.93245083573731,,46.41141598738016
+08f279e4a851308b030373f134af2819,Big Timber Daycare,day_care_preschool,['education' 'school'],meta,-109.9433057,45.8337935,45.83376690917772,-109.9432231420733,,7.046465883288204
+08f29acb7491b22c03961762ac2cde06,Plenty on Bell,restaurant,['american_restaurant' 'wine_bar'],meta,-120.2775814,34.7438986,34.7438986,-120.2775814,Accurate,0.0
+08f28f01800adc1003a03707f48a758b,Smooth Systems Construction,professional_services,['contractor' 'damage_restoration'],meta,-122.4759147,45.4918107,45.491865038475645,-122.4759147,,6.042162812528562
+08f29a0969036391032504daedc00ff3,Surf Cycle Laundromat,laundromat,['dry_cleaning' 'bicycle_shop'],meta,-117.6761476,33.4674073,33.46743870592462,-117.67617513151248,,4.326332694221117
+08f29a926d790723035579618f9c1a4b,Gerd Schneider Nursery LLC,nursery_and_gardening,['gardener'],meta,-121.5317864,36.9687127,36.96789169934117,-121.52917935287276,,248.95535480475542
+08f5d115334485b403081002c9f68498,Hawaii Island Ice Distributors,ice_cream_shop,['smoothie_juice_bar' 'food_beverage_service_distribution'],meta,-155.0681931,19.7248313,19.72482529826246,-155.0681931,,0.6673627660387926
+08f44e9c9681bcb403c0ec0fc0ce0329,Budget Motel,hotel,['accommodation' 'motel'],meta,-86.8706343,33.540673,33.54064902137949,-86.87045248937835,,17.05990895438614
+08f2a930f2c452e203916aaade1ea210,Buckeye Carbide,online_shop,['retail'],Microsoft,-84.551325,39.105771,39.10567604612279,-84.55169275711687,,33.44255159787843
+08f29a1b1364219903f1278ee57f0037,Whitakers Hardware,hardware_store,['home_and_garden' 'shopping'],Microsoft|meta,-118.8796407,34.2855036,34.28554009169916,-118.87963051741222,,4.164138194852903
+08f2b890a368bb1103b3a9b0a0dd74d3,Hoarder's Honeypot,thrift_store,['flea_market'],meta,-74.0329839,42.6998235,42.699945140081226,-74.0331096294683,,16.985613414028073
+08f2ad4d2a30583203b5846e1271d213,The Wash House,dry_cleaning,['hotel' 'auto_detailing'],meta,-77.5620157,35.8992732,35.89935284464488,-77.5619833670179,,9.32265392839392
+08f298cb1e73450003321ebbeed09bda,Mammoth Village Gondola,hotel,['holiday_rental_home' 'accommodation'],meta,-118.985239,37.65004,37.65014046360148,-118.98516907455144,,12.755030088704736
+08f28c6004a6a5520366aaebfff8fdce,Kraken Beach Arts,arts_and_crafts,['beach'],meta,-124.1057816,46.8900849,46.88989324893837,-124.1058931286304,,22.934054638911125
+08f2a8e4cc0c11030321cc02c69c7bb8,Greenbrier Medical Arts Pharmacy,pharmacy,['drugstore' 'retail'],Microsoft,-80.469931,37.772697,37.77270890025136,-80.46964742216228,,24.959802739470987
+08f446e119883c150375c37494cc4948,UPS Customer Center,professional_services,['food_delivery_service'],meta,-93.88673,29.936922,29.936735470444937,-93.88643379007786,,35.28266666039349
+08f2ab5b32a11d940300d9faba7d2154,Drab Law Office,lawyer,['real_estate_law' 'wills_trusts_and_probate'],Microsoft|meta,-79.333618,42.4805994,42.480584747931395,-79.33349093632407,,10.546703905688073
+08f275d39bd1dc4103cc91e4a581d097,Debt Advisors Law Offices Downtown Milwaukee,bankruptcy_law,,Microsoft,-87.90829,43.03925,43.03881125479022,-87.90824762191939,,48.907660750098294
+08f44a132815373603f19b6657f03be8,Chocolatissimo Bakery,bakery,['desserts' 'restaurant'],meta,-80.37359,26.12212,26.121908780404578,-80.37381610200292,,32.575711505382046
+08f2a86914ae28d903df50ebd97962e7,Best Western Plus Dutch Haus Inn and Suites,hotel,['travel_company' 'travel'],meta,-80.6948665,40.9004913,40.90052219215851,-80.6948665,,3.435051299598757
+08f2696065ac382d039f10dab66abbca,Betos!,mexican_restaurant,['fast_food_restaurant' 'texmex_restaurant'],meta,-111.93818,40.70175,40.701496851116914,-111.93846346935167,,36.923997738826
+08f2600b1d28b768034f9e41980fe464,Storage Center,storage_facility,['self_storage_facility' 'business_management_services'],Microsoft|meta,-96.8334442,43.5150923,43.51528542146718,-96.83327487751342,,25.447269800339672
+08f26e5bacac063503417b44890234e0,Shred Nations,shredding_services,['social_service_organizations' 'professional_services'],Microsoft|meta,-95.2889605,38.9729138,38.9729138,-95.2889605,Accurate,0.0
+08f2b8a32e69a1a903faa05285b4e0d0,Cookies Services,construction_services,['professional_services' 'plumbing'],Microsoft|meta,-75.92842,43.2821958,43.282396624055224,-75.92829538158007,,24.503404365876968
+08f269680b0a889d037b29c5a672b36a,Deseret Food Store,grocery_store,['organic_grocery_store' 'shopping'],meta,-111.9375878,41.0350551,41.03959263874309,-111.94135441956698,,595.2935461184559
+08f2a16a2d3a516203948095e0ec75da,Ready Coffee,coffee_shop,,meta,-73.913437,41.6137494,41.6137494,-73.913437,Accurate,0.0
+08f29a0b6a91042003c04bfbd9fdb8c1,Shilpark Paint - Garden Grove,paint_store,['retail'],Microsoft,-117.974696,33.774217,33.77430775175674,-117.97484976537528,,17.430516239301635
+08f44f16edacec1a0388588fbcb14660,The Blueberry Warehouse,fruits_and_vegetables,['farmers_market' 'candy_store'],meta,-82.4719403,31.5396344,31.54022871562985,-82.47192013491028,,66.11250820944407
+08f2a10773c0d49a0305e4e82bdf49ec,Evergreen Lumber,hardware_store,['industrial_equipment' 'construction_services'],meta,-74.0149359,40.6371206,40.63710166147092,-74.01490396355914,,3.4200367289628053
+08f2aa86b565942103f758737cca263f,Elsy Express,shopping,['grocery_store' 'health_food_store'],meta,-77.1237564,38.7196693,38.71948736453807,-77.1236567192589,,22.00117062797426
+08f2a80b4312993503c5a5d252aaf6b2,West Fork Events,event_planning,['topic_concert_venue' 'music_venue'],meta,-79.4834185,39.5238505,39.52404897732365,-79.48380692523389,,39.96254869459392
+08f29a418666042303accd68f3ac6f48,ampm,convenience_store,['gas_station' 'tobacco_shop'],Microsoft|meta,-117.0425875,32.7457757,32.745840172821175,-117.04251298338798,,9.998159052751413
+08f2aae08ac3273303dbb2ea3a3611eb,Wendy's,fast_food_restaurant,['burger_restaurant' 'breakfast_and_brunch_restaurant'],Microsoft|meta,-77.5672459,39.7503773,39.750358179770075,-77.5673648163247,,10.386192334861661
+08f262cda6385b89030b5a9153f8a31f,Hotel Excelsior,hotel,['accommodation' 'motel'],Microsoft|meta,-93.5670781,44.9031071,44.90303646139179,-93.56685957391646,,18.91864059064723
+08f28d4ad1aaeca8032c856abf6c9dbc,King's Teriyaki,japanese_restaurant,['restaurant' 'asian_restaurant'],meta,-121.9839315,47.2004243,47.2004020609865,-121.9838663361318,,5.509280431090656
+08f2b8d15acd202003a3c3f857903dc8,Marble Valley Engineering,engineering_services,['shopping' 'professional_services'],meta,-72.9811141,43.6104839,43.61045495474575,-72.98118191574073,,6.337920770693827
+08f29b6cccd0344b039be71106673105,Tortas Chano,mexican_restaurant,['restaurant' 'latin_american_restaurant'],Microsoft|meta,-112.1324314,33.8441965,33.8441965,-112.1324314,Accurate,0.0
+08f2aa38c1b9312c034441bf768499ce,Army Medical Recruiting,professional_services,['public_and_government_association' 'retirement_home'],meta,-77.85961,40.79506,40.79503367332758,-77.85968656556814,,7.0789596763755664
+08f44a8903286009031492c267a84177,Nutmeg's Cafe,bakery,['american_restaurant' 'sandwich_shop'],meta,-80.8353283,27.2430865,27.243051269747717,-80.83530894994168,,4.359542713250033
+08f2a14b83b1d90b03b37e4834d96837,CVS Pharmacy,online_shop,['pharmacy' 'drugstore' 'corporate_office''private_establishments_and_corporates' 'retail'],Microsoft,-72.6388,41.7745,41.7745069784472,-72.63900305282465,,16.85625338724939
+08f2a9c5915140b403b351d3326446f5,The Faulkner Law Office,personal_injury_law,['lawyer' 'legal_services'],Microsoft|meta,-82.8575124,38.7301384,38.730160060161495,-82.85766043616975,,13.065065013456408
+08f29a8432c8eb00037b153ccd5bf699,Fast and Friendly,health_food_store,['grocery_store' 'convenience_store'],meta,-119.09053,36.20554,36.20557892626107,-119.09050461921704,,4.890905069701432
+08f26818208f3486033855c455f0f042,Rocky Mountain Connection,shoe_store,['clothing_store' 'sporting_goods'],meta,-105.5229496,40.3763509,40.37637801656704,-105.5229539084331,,3.0372319077693217
+08f441e5998dc6cb0379e10e1d38c140,PostNet,printing_services,['freight_and_cargo_service' 'shipping_center'],Microsoft|meta,-82.1590044,27.0679415,27.06791704538051,-82.15899984707254,,2.756345347543712
+08f2a3499dcf213203eeb54cb01f400e,Coastal Electronics,electronics,['auto_manufacturers_and_distributors' 'industrial_equipment'],Microsoft|meta,-69.6688654,44.019241,44.01914294844677,-69.66902499771997,,16.784824046406882
+08f2a1004b0184ac03ccec805926abb0,Ni Ramen,japanese_restaurant,['tapas_bar'],meta,-73.6718362,40.6569479,40.6569479,-73.6718362,Accurate,0.0
+08f2a306718f08ee0390e682f933e830,Life Alive Organic Cafe,vegetarian_restaurant,['smoothie_juice_bar' 'cafe'],meta,-71.1196378,42.3729802,42.37296633614464,-71.11969393765101,,4.86243115226272
+08f2a3497676670203844056f073e79c,Friendship Village Co-op,flowers_and_gifts_shop,['arts_and_crafts' 'shopping_center'],meta,-69.3335785,43.9842881,43.984311118750135,-69.33359831765823,,3.010885555054306
+08f29ac4da45c3a103c1e12449f23026,Bakersfield Photo Booth Rentals,event_planning,['professional_services' 'event_photography'],Microsoft|meta,-119.0936425,35.355756,35.35579598903089,-119.09361104400293,,5.282972622144569
+08f44ca028926d9203ff41b767341a7f,Grand Summit View,cabin,['travel' 'accommodation'],meta,-83.5599993,35.7069352,35.70695326777009,-83.5599660011434,,3.6160705001131266
+08f26e53634191b403d8aa3573a7aaf5,Hardee’s,burger_restaurant,['fast_food_restaurant' 'restaurant'],Microsoft,-95.26548,38.57281,38.5729387619744,-95.26564505364875,,20.270248225767602
+08f2a10a263557aa035d8858e97eaf9c,Taco Bell,fast_food_restaurant,['mexican_restaurant' 'restaurant'],Microsoft|meta,-73.2046532,40.7899434,40.7899180409593,-73.2046532,,2.819796670803232
+08f2ab2c1e10d01c031b32443f5632ff,Koi Express Hibachi and Sushi,restaurant,['diner' 'japanese_restaurant'],meta,-83.201646,42.4608943,42.46091536828206,-83.20172035045596,,6.533610927395865
+08f2668659b1882503bd81fb6b0f0b1c,All Saints Camp and Retreat Center,campground,['community_services_non_profits' 'church_cathedral'],meta,-86.368007,37.5646599,37.56456884827286,-86.36811678043385,,14.004720584344652
+08f44ae8e516e064032c83e9ccb7e60d,Hydrangea Flowers and Events,flowers_and_gifts_shop,['coffee_shop'],Microsoft|meta,-80.0561794,26.6905334,26.69050796479871,-80.05613403110799,,5.321123599534847
+08f44a1bb0892ca803fefe139c9de12f,4th Street Commons,accommodation,['landmark_and_historical_building' 'real_estate'],meta,-80.3720758,25.7650808,25.76521839921465,-80.37265048298471,,59.54812377754781
+08f2656016618aaa03f45a3b49b0ba01,Bessine Walterbach,lawyer,['bankruptcy_law' 'criminal_defense_law'],meta,-94.54426,39.2043087,39.20428960108325,-94.54430920292528,,4.741720100869104
+08f441ad5dab099b030b26a8f1efd238,Exuberant Tropicals Nursery,nursery_and_gardening,['accommodation'],meta,-82.3856418,27.8268555,27.826869249717447,-82.38537671729345,,26.112127899297732
+08f44a98cd29b933034e46c3e3ec7e68,Motel 6 Orlando Kissimmee Main Gate West,hotel,['accommodation' 'travel'],meta,-81.585018,28.334163,28.334087913229585,-81.585018,,8.349267928230542
+08f261650ad30512038354b0d63e8de4,Long John Silver's,fast_food_restaurant,['seafood_restaurant' 'restaurant'],Microsoft,-103.1972292,44.0871831,44.08732106190061,-103.19749146245034,,25.963436591171934
+08f266d32d3209830327457fa9a7744f,Boost Mobile,mobile_phone_store,['telecommunications_company'],Microsoft|meta,-84.5191151,38.007152,38.007115615124,-84.51913870441363,,4.543740465839988
+08f44c228650502b038f024d6fceaef2,Dumpee Dumpsters,garbage_collection_service,['recycling_center' 'professional_services'],meta,-82.0803119,33.4987989,33.49881273263664,-82.08036558319417,,5.210002600578365
+08f28d5576ae9635031b6974e2a54d8d,Mattress Firm,mattress_store,['furniture_store' 'shopping'],Microsoft|meta,-122.3667933,47.5225566,47.5225566,-122.3667933,Accurate,0.0
+08f2680041549ca803b172e92396c2ef,Pioneer Ridge,holiday_rental_home,['rv_park' 'property_management'],meta,-106.8187588,40.4593073,40.45939253614253,-106.81873095729796,,9.766172890004347
+08f29a54db20b98503452132b4a211ce,Yogis Teriyaki,japanese_restaurant,['restaurant' 'asian_restaurant'],meta,-117.9073804,33.7135293,33.7135293,-117.9073804,Accurate,0.0
+08f2aaa28e9a64b503f61ec435f1726b,West Park Gardens,hotel,['bed_and_breakfast' 'accommodation'],meta,-78.0009126,38.4689924,38.4689924,-78.0009126,Accurate,0.0
+08f29aeb21d08a1603ac63aee48e6871,Redbox,rental_kiosks,['kiosk' 'food' 'retail'],Microsoft,-119.0217861,35.3103942,35.31015745705301,-119.02169872643016,,27.492568223676614
+08f2a136a515110e03ec86d4e1bb4c9a,Little Spice Pizzeria,delicatessen,['food_delivery_service'],meta,-74.9850525,39.6988544,39.69889252708231,-74.9850525,,4.239538120677122
+08f2681a44a9013403b740109fa9a2dd,The Establishment at Bradburn Village,event_planning,['topic_concert_venue'],Microsoft|meta,-105.0419075,39.9124767,39.91246008377967,-105.0419075,,1.847639400947676
+08f269625495ab0e030407b32ff7df76,Millhaven Homes,construction_services,['architectural_designer' 'real_estate'],meta,-111.7214772,40.3426478,40.34286989049779,-111.7215969166497,,26.698379805027656
+08f48d621139b8b30344b8490175a2ac,Michael's Pharmacy,pharmacy,['health_and_medical' 'shopping'],meta,-103.1358992,32.727898,32.72805175816167,-103.1358992,,17.097127507844313
+08f44c0a32819ca303fba357b8406a3c,Redbox,rental_kiosks,['kiosk' 'food' 'retail'],Microsoft,-83.6160651,32.859072,32.859317492765484,-83.61617355997217,,29.116768541667657
+08f2a846b140ca8303450c840790edaf,Corson Custom Graphics,sign_making,['advertising_agency' 'printing_services'],meta,-80.2310155,40.2941617,40.2941617,-80.2310155,Accurate,0.0
+08f48ab2e46c459203226d25fb72d0ec,Deep Rock Dystopia,hotel,['holiday_rental_home' 'accommodation'],meta,-103.5738677,29.3265989,29.3270619057096,-103.5749102222941,,113.42408426713581
+08f44e00d874e6cd0333011f2102e015,East Bank Campground,campground,['rv_park' 'park'],meta,-84.8517976,30.7190016,30.7190016,-84.8517976,Accurate,0.0
+08f29a56582ae483037a234caabd998c,El Tarasco Mexican Food,mexican_restaurant,['restaurant' 'latin_american_restaurant'],Microsoft|meta,-118.4158563,33.9182406,33.91824408023761,-118.41583342135446,,2.1462666121977545
+08f48eec5170b6ea03d53f6499e7b592,Sieling's Mobile Village,accommodation,['campground' 'real_estate'],meta,-109.9181078,31.4050322,31.40539973249198,-109.9180475380272,,41.265989075167404
+08f44c229dd00bae03e50b9f529513cb,Blue Rhino Propane Exchange,propane_supplier,,Microsoft,-82.089836,33.549945,33.54937115243061,-82.0900353984916,,66.43065112550136
+08f44a90ec41e20e03ccbb738c4e154f,My Urban Lodge,furniture_store,['retail'],Microsoft|meta,-81.3558519,28.5957703,28.595784177279945,-81.3558519,,1.5430831253155919
+08f298cb02d756e003246b5863f62d32,"Lake George Camp Ground, Mammoth Lakes, California",campground,['lake'],meta,-119.0096356,37.6025368,37.60358370428073,-119.01098000547483,,166.06722890402068
+08f26481ac23034303b8ee99d9f1409f,Roam Freely RV Park,campground,,meta,-88.0867,35.8504853,35.85035117648531,-88.08696874110626,,28.44462183952786
+08f262cd5382999a03ba3cdd16e0ad01,Americas Best Value Inn Burnsville Minneapolis,resort,['hotel' 'motel'],Microsoft,-93.2917327880859,44.7692070007324,44.76936347140363,-93.2917327880859,,17.398744809358323
+08f2a100d801871d030e74845c013b2f,Buildeem,construction_services,['contractor' 'professional_services'],meta,-73.9418784,40.6868555,40.68683709461072,-73.94183833365845,,3.9498529374991644
+08f44c845ea2326803f348e9e90cea93,Composites One LLC,professional_services,,Microsoft|meta,-84.290183,35.5750245,35.575062208161086,-84.29010245599018,,8.405021364092619
+08f2719c9cb63b9e03f3042c44b0f1c9,Dakota Supply Group,wholesale_store,['industrial_equipment' 'professional_services'],meta,-97.0988549,47.9152641,47.91535038405805,-97.09870416017628,,14.773458964881636
+08f275ccb24e15920328d4706f3df5f5,Neale Hall,accommodation,['campus_building' 'college_university'],meta,-89.5721227,44.530571,44.53051574722423,-89.57197900700044,,12.941617663043951
+08f29a180b423609030ab4a518c65443,Calabasas Printing,printing_services,['screen_printing_t_shirt_printing'],meta,-118.6489146,34.158,34.158051836926674,-118.6490784409441,,16.139825683402435
+08f2a100d21134c103ffdfce45695dc5,InStep Consulting LLC,professional_services,,meta,-73.9875433,40.7445736,40.74459986545127,-73.9875799983026,,4.252991224693909
+08f268cd8da1d32b03487acb42549b5e,CCS Facility Services Corporate Headquarters,janitorial_services,['cleaning_services'],Microsoft,-104.9815808,39.6953761,39.695514477071875,-104.98176883315222,,22.261531098723122
+08f4413c35cd64d003203cca8a0e1d20,Redbox,rental_kiosks,['kiosk' 'food' 'retail'],Microsoft,-81.7241714,25.952244,25.952264490334876,-81.72431355089314,,14.393989005616087
+08f298cb027067130313e977457ee274,Twin Lakes Campground,campground,['lake' 'travel'],meta,-119.0099621,37.616277,37.61569539391396,-119.00892809099076,Campground,111.70096749028579
+08f2aac3a846d1ad03bdd573c3a2078d,Elkton Injury Resource,lawyer,['legal_services'],meta,-75.82391,39.6102,39.61009739059716,-75.82385697638853,,12.280553983708533
+08f29a18d67ad770039dad16a0f8eb0d,CENTERcoffee,coffee_shop,['cafe' 'ice_cream_shop'],meta,-118.5106625,34.2610151,34.26109250449312,-118.5106399088824,,8.853844458516807
+08f44f69027a986303c2790124a948e8,Lankford Monuments,funeral_services_and_cemeteries,,Microsoft,-81.300393,29.027801,29.028012417840845,-81.30046913432804,,24.646462205292476
+08f26653a97ab63003e359ea728ee94e,Minute Clinic,shopping,,meta,-86.16464,40.48788,40.48803597450798,-86.16464,,17.343573974103244
+08f2681a3191b11203efb65a10ef1d15,Phoenix Asylum,event_planning,['art_gallery' 'arts_and_entertainment'],meta,-105.2432938,40.0260266,40.026050377722584,-105.24304184038355,,21.61610486620711
+08f276acc1c1b5810308764740dc52db,Wittock Kitchen and Bath,kitchen_supply_store,['kitchen_and_bath' 'home_improvement_store' 'building_supply_store' 'interior_design' 'retail'],Microsoft,-84.68138,45.01527,45.01567280248228,-84.68148757446656,,45.58081294112099
+08f260e273a6d3a20395d2a61c206f77,Malibu Custom Framing,arts_and_crafts,['arts_and_entertainment'],meta,-96.0358357,41.2614948,41.26155974121507,-96.0358842247114,,8.2822584953266
+08f27905b12ab253036f3d6a207b1758,Volk Photography,professional_services,['graphic_designer'],meta,-111.3075375,47.53213,47.53204569691257,-111.3076228319751,,11.354089422337422
+08f2601b921984550352a75d1877bed7,Triangle,bar,['pub' 'mexican_restaurant'],meta,-95.9734255,42.8155897,42.815523578189946,-95.97347906479244,,8.552596748710085
+08f2a106b3bb015103fa4937f80d505f,Bill's Luncheonette,breakfast_and_brunch_restaurant,['american_restaurant' 'restaurant'],meta,-74.4228149,40.619528,40.6195121318661,-74.422815,,1.7644761714598984
+08f29a1d758809b103eb77767b098582,Good Guys Fabric,fabric_store,['fabric_wholesaler' 'wholesaler' 'arts_and_crafts' 'business_equipment_and_supply' 'business_to_business' 'retail'],Microsoft,-118.2441946864128,34.03705805540085,34.03859864950781,-118.24261897688189,,224.5583712672265
+08f26051238ec6260310bc3590e56ac5,Lolkus Outdoors,hunting_and_fishing_supplies,['active_life' 'sports_club_and_league'],meta,-95.9483102,43.9351795,43.935168003438775,-95.94830546637333,,1.3333698279146218
+08f283035a5517a803d519edc5e95aee,McDonald's,burger_restaurant,['fast_food_restaurant' 'restaurant'],Microsoft,-122.673471,38.457976,38.45794235556177,-122.67356554567188,,9.042537761814094
+08f28d558c2cb2ea0339dc9eea8f2d5d,Woodside East Apartments,accommodation,['landmark_and_historical_building' 'real_estate_service'],Microsoft|meta,-122.1226314,47.6228798,47.62328558071522,-122.12177456232432,,78.48337265131416
+08f26ee2d116392903638f3a4cf33ab4,Taco Mayo,fast_food_restaurant,['mexican_restaurant' 'restaurant'],Microsoft|meta,-95.9667418,36.154934,36.154934,-95.9667418,Accurate,0.0
+08f44a9971995b8d033809c3eb479d1b,Conroy Security LLC,professional_services,['business_manufacturing_and_supply'],meta,-81.7241838,28.0440949,28.044123206208216,-81.72415005532255,,4.568803616064131
+08f29a54cdadb88e03e0d2955507738b,Stay wavy,accommodation,['hotel'],meta,-118.0052,33.65993,33.65990867803626,-118.00511061701064,,8.60563437321349
+08f266d3704eab560309b6ff63d0c46f,Kroger,supermarket,['grocery_store' 'shopping'],Microsoft|meta,-84.5360783,37.9547512,37.954942240614415,-84.53611721105531,,21.514954717321256
+08f262cb60b7206003eadb89bdc0b79f,Redbox,rental_kiosks,['kiosk' 'food' 'retail'],Microsoft,-92.275165,44.443181,44.44323824989279,-92.27529397808232,,12.056767133960468
+08f26c844a18ea23039e673a96dcb2be,Journeys,shoe_store,['retail'],Microsoft,-97.1087374,33.1907221,33.18998744405077,-97.10680488522904,,197.51350829115896
+08f44ae8ecc906430352b65d9d0f69ec,Zeidel & Co,clothing_store,['uniform_store' 'fashion_accessories_store'],Microsoft|meta,-80.0534792,26.721967,26.72200690635553,-80.05341396587878,,7.852885959137169
+08f268c79236aa5203f03e01857e66a1,Forest Films LLC,video_film_production,,Microsoft,-105.0565071,38.995187,38.99529275357531,-105.05653774883766,,12.053869426334447
+08f48eba5020da4003eefec7e4844ad1,T-Mobile,mobile_phone_store,['telecommunications_company' 'electronics'],Microsoft|meta,-111.8674586,33.4339035,33.4339035,-111.8674586,Accurate,0.0
+08f29a07a2d9484103364ddda43ca7da,Chateau de Swan,hotel,['cabin' 'accommodation'],meta,-116.8951768,34.2481081,34.24804119121186,-116.8952014726736,,7.77786654394366
+08f44422e64860d403029d18e7beaf64,Wendy's,burger_restaurant,['fast_food_restaurant' 'restaurant'],Microsoft,-90.4657816886902,31.57852400129259,31.57859111715942,-90.46591491258046,,14.661713460962927
+08f2aae2c92e835c030d3d36c3cd22fd,Bobbie's Daycare Learning Center,day_care_preschool,['home_service' 'preschool'],meta,-77.2545004,39.2181474,39.2182358172996,-77.25465925816606,,16.850680688436675
+08f2ad346409bc64034bbc482c561a1f,Little Caesars Pizza,pizza_restaurant,['fast_food_restaurant' 'restaurant'],Microsoft|meta,-78.9476656,33.7321972,33.732309188163384,-78.94738404049376,,28.861599838558167
+08f29a0a58c1eb10034f20025a4378d5,PLPC,software_development,['computer_store' 'computer_hardware_company'],meta,-117.895942,34.003007,34.003026681863346,-117.89535457843851,,54.193607531690446
+08f2a158e0d1e3630317e57d8183a2a7,Bloodline Sportfishing,hunting_and_fishing_supplies,['fishing_club' 'active_life'],meta,-71.9381372,41.0668083,41.0668083,-71.9381372,Accurate,0.0
+08f2748cd394444403c4a5883e348604,Trinity Health Lab - Walker,laboratory,,Microsoft,-85.7778123,42.9853099,42.985361023353214,-85.77754066742997,,22.814756750537146
+08f262eb19cea0b1036fe8dc1323076f,Insomnia Cookies,bakery,['desserts' 'food_delivery_service'],Microsoft|meta,-93.9935291,44.1459759,44.14600304604184,-93.9935291,,3.0185021310469295
+08f2aae82918c19b03298e6461f00482,D.M. Fetrow Inc,environmental_testing,['retail'],Microsoft,-76.8752874,40.0570941,40.0570832020762,-76.8754018109933,,9.812517430089995
+08f2ad344d098096034fe7f1a2af28a8,Kiefer Beach Homes,holiday_rental_home,['accommodation' 'hotel'],meta,-78.9592854,33.6312199,33.63045600941344,-78.9598900327372,,101.7279771645273
+08f289607080136e03c6ab4f3b743d94,Old Faithful Lodge Cafeteria,resort,['hotel' 'inn' 'lodge' 'motel'],Microsoft,-110.825172153689,44.459193243237536,44.45923677354392,-110.82515388525526,,5.052833986459245
+08f268cccb54c54d0377d52348621419,SKECHERS Factory Outlet,shoe_store,['shopping'],meta,-104.8748037,39.4162089,39.41608759870615,-104.8747832292184,,13.60224031817706
+08f489c03369686d039bc697982bc8d3,Brass,event_planning,['commercial_real_estate' 'social_service_organizations'],meta,-98.4872806,29.5213009,29.521341758903255,-98.4873306300848,", ",6.638931863769547
+08f44a905639a0ad0340a3d4b9df9184,Law Office of Erin Morse,divorce_and_family_law,['legal_services' 'lawyer'],Microsoft|meta,-81.37757,28.5593675,28.559584542896246,-81.37749331144022,,25.26954820885439
+08f48e854563625603ca7625b331449e,University Inn,hotel,['accommodation' 'motel'],meta,-110.9715111,32.2339139,32.233952645744004,-110.97163299662093,,12.248020074210881
+08f29ab9ab06a58003908fcd74f70bea,Ipsos,advertising_agency,['marketing_consultant' 'bar'],meta,-119.788419,36.781466,36.78032346467976,-119.78897663463616,,136.40597372434266
+08f27594c19a8ac903e585f684e3e4e9,Baseball Tap,pub,['bar' 'sports_bar'],meta,-88.9531606,42.2361997,42.23621533565265,-88.95327586105113,,9.646999429551347
+08f441a092b35a9e0379350d60cd0531,Piccola Italia Restaurant,italian_restaurant,['pizza_restaurant' 'restaurant'],meta,-82.1964428,28.229761,28.229761,-82.1964428,Accurate,0.0
+08f26ed81859545a031d83f5c4ff358b,Muscle Rock Inn,hotel,['cabin' 'topic_concert_venue'],meta,-93.6159461,36.6213079,36.6213079,-93.6159461,Accurate,0.0
+08f275261a22e180039fd049890f5179,Radisson Hotel Minneapolis/St. Paul North,hotel,['business' 'accommodation'],meta,-93.185606,45.017508,45.0176072640854,-93.18623147034457,,50.38738342073525
+08f283409a36385d0319be9f4c7c7e08,The UPS Store 1330,printing_services,['packing_supply' 'shipping_center'],Microsoft|meta,-121.9340496,37.2622483,37.26274071857444,-121.93396639436224,,55.24734852723093
+08f274c3013248c503234572f4fbd719,Crystal's Gardens Nursery,retail,,Microsoft,-84.594782,43.509808,43.509706871459976,-84.59474581715597,,11.617404730278885
+08f2a100b2b8b3460342856dfec49792,The Concept Studio,professional_services,['event_photography'],meta,-74.0303779,40.9058297,40.907273535926194,-74.03088073546223,,166.01542995148216
+08f2a134e1506b1603a98b37b14e4364,Warby Parker,eyewear_and_optician,,Microsoft|meta,-75.0259048,39.9409151,39.941078351696774,-75.02689002721172,,85.9335694732965
+08f2aa18a801edaa033f1cd43e866355,CDC Software,software_development,['information_technology_company'],meta,-76.4578766,41.0014167,41.00125835085221,-76.45790522906611,,17.77077232820176
+08f298614d9728cd037aff5c9ccd2a44,H2O Environmental,garbage_collection_service,['home_cleaning' 'environmental_and_ecological_services_for_businesses'],meta,-115.0775316,36.2201815,36.220119944669214,-115.07777360854176,,22.76323644741109
+08f264d125a25c5603bf1123a0b81781,Chuys Opry Mills Nashville,restaurant,['mexican_restaurant' 'texmex_restaurant'],meta,-86.6917835,36.2041242,36.20434966577081,-86.69182682404396,,25.37022284484207
+08f489c11a18e9a503b6c1208ae24280,La Regia Tortilla Factory,wholesale_store,['bakery'],meta,-98.5047264,29.4405149,29.440497823578635,-98.50478900040882,,6.35239789129203
+08f2a1004b403bb103a759f641ef5e06,Vivo Entertainment,dj_service,['event_planning' 'professional_services'],meta,-73.68119,40.65965,40.65968423555375,-73.68106018637907,,11.59286023564985
+08f280685c61ec5903053700d71a6e43,UScellular,mobile_phone_repair,['mobile_phone_accessories' 'mobile_phone_store' 'it_service_and_computer_repair' 'retail'],Microsoft,-123.806932,39.421097,39.42099489660061,-123.80622302877217,,61.94855629816257
+08f446c35c774b8c0371b7129f98a492,Airi Ramen 1960,japanese_restaurant,['restaurant'],Microsoft|meta,-95.4818986,29.9964235,29.99635615163158,-95.48181515513193,,10.984385736969282
+08f4442332ad16ab036d52c18162031c,Goat Buildings McComb,construction_services,['storage_facility' 'self_storage_facility'],meta,-90.4825557,31.2891542,31.28919010450396,-90.48279555096993,,23.138252844979167
+08f44a18c1889b2b0382fd2e33ef5e11,Coconut Grove Sails and Canvas,professional_services,['b2b_textiles' 'commercial_industrial'],meta,-80.3079012,25.72607,25.726056477397677,-80.30787264195236,,3.2318495965873106
+08f2752793c8baf403dcacca8c6a89c4,Starbucks,coffee_shop,['cafe' 'restaurant'],Microsoft|meta,-93.3885075,45.1729878,45.1729878,-93.3885075,Accurate,0.0
+08f489c1a2aa53ae03fb24c82cd62859,Discount Carpet Warehouse,carpet_store,['contractor'],meta,-98.4047948,29.3919986,29.39200733857562,-98.40491887066392,,12.059445942097332
+08f28f33a3db146c03a65b2b1a2540a4,Quality Rentals,appliance_store,['electronics' 'retail'],Microsoft,-122.957555,46.700839,46.701230919793545,-122.957555,,43.57949269318595
+08f275931a56466503f71e0f71a17c67,Gino's East,pizza_restaurant,['italian_restaurant' 'restaurant'],Microsoft|meta,-88.14231,42.0703881,42.07065233621711,-88.14222897540452,,30.133281009553006
+08f44131b120909a03882fc6d8cb540c,"Law Office of J. Gary Shirk, PA",divorce_and_family_law,,Microsoft,-81.79986,26.24487,26.2448863669221,-81.79994541160032,,8.710520128722129
+08f44c2282cf0d93034d5bcf5d4f7592,"J. Michael Spence, Attorney at Law",lawyer,['criminal_defense_law' 'legal_services'],meta,-82.0763114,33.5176335,33.517680930319,-82.07620878095224,,10.877405785329918
+08f28d542c826971033b48110cdedb63,"Zundel Law Offices, PLLC",divorce_and_family_law,['lawyer' 'legal_services'],meta,-122.3353859,47.6057299,47.60575130468155,-122.33546154121296,,6.150099490269744
+08f26aa5721346b403cc775d6e0c2fb1,Tolmar,event_planning,['business'],meta,-104.8824591,40.4654642,40.465745852936855,-104.88244578822996,,31.33861754031105
+08f265a48a5a535803dba6567fffcd87,Sales Team - Dependable Building Sales,construction_services,,meta,-93.459164,35.470957,35.47091853290125,-93.458539194491,,56.74274320366748
+08f44e50e584e983036dbff23cb8e7a1,Jonah Allen Art Gallery,professional_services,,meta,-86.0991371,30.3121619,30.312106006306536,-86.099238732394,,11.56752137013053
+08f2a13144ad68a20337ac8051670cb1,Broadway Giant Bagels Mule Road,bagel_shop,['restaurant' 'coffee_shop'],meta,-74.24507,39.9568,39.956815411671826,-74.24531660761076,,21.089123682203432
+08f2aaaa6e8311980333ee0e21cc884d,Subway,sandwich_shop,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-77.2617747,38.672542,38.67261337135506,-77.2617747,,7.93613259090864
+08f2a1006ec40db0038f55769d177f4b,Omega,watch_store,['retail'],Microsoft,-73.6128032,40.7380655,40.73753310464587,-73.6110298836372,,160.70790934440015
+08f264905da9410103cbaf4291cfede5,Domino's Pizza,pizza_restaurant,['restaurant' 'caterer'],Microsoft|meta,-86.952032,34.8005118,34.800361423560396,-86.9519236242631,,19.429760479464946
+08f44130134903ae0304765081aff4ad,The Ritz-Carlton Residences,accommodation,['event_planning' 'landmark_and_historical_building'],meta,-81.8367405,26.3992911,26.39962037956168,-81.83679586512469,,37.02713243095702
+08f264a692d2d64503cdd25e8f2d2d83,SLS Distribution LLC,professional_services,['real_estate' 'wholesale_store'],meta,-89.7863052,35.0578935,35.05791242116411,-89.786110937197,,17.806735555104567
+08f2b1a2914899a0034c4a08a3ac470b,White House Lumber,furniture_store,['construction_services' 'shopping'],meta,-69.364772,44.182011,44.18199990233325,-69.36473855547725,,2.9385625518946012
+08f44e42a57443850332b160c172bd16,Mystic Pearl,holiday_rental_home,['accommodation' 'hotel'],meta,-85.3037043,29.8123333,29.812066534476823,-85.30292035581812,,81.24320199513413
+08f489e35ec0eb5c03e472d9a050ff61,EZPAWN,pawn_shop,['financial_service' 'shopping'],Microsoft|meta,-97.7082552,30.3103483,30.310346165255257,-97.7082554938171,,0.23904259189083624
+08f2ad2968d54c6203888cf63a084922,Smithfield Packing,professional_services,['employment_agencies'],meta,-78.806011,34.7482653,34.74541015355239,-78.80240755926235,,457.36960301771916
+08f2a94d0609b76b033c3fa52be5f414,Jake's Saloon & Sports Pub,sports_bar,['bar' 'pub'],Microsoft|meta,-83.6035829,41.6530229,41.652992919008454,-83.60384954598807,,22.403182210458738
+08f29a02c69b2cd003e81b6f094ff7a7,Mexico Lindo & Seafood Restaurant,mexican_restaurant,['seafood_restaurant' 'restaurant'],meta,-117.5668603,34.4256984,34.4256984,-117.5668603,Accurate,0.0
+08f264a84105b663035b3fedc120a1e5,Sands Florist,flowers_and_gifts_shop,['shopping'],Microsoft|meta,-88.8498833,35.6570323,35.6571035899795,-88.84985424212692,,8.35050867457828
+08f44f055bd06889038fa1dd2bc20326,Hyatt Place Jacksonville / St. Johns Town Center,resort,['hotel'],Microsoft,-81.529048,30.256515,30.256859332061715,-81.53017359394856,,114.69031079329066
+08f2664c1a80e2b40366270ecb487848,Expansive,professional_services,['real_estate' 'commercial_real_estate'],Microsoft|meta,-87.6281024,41.8806295,41.88068628274806,-87.62807953069314,,6.591712444252206
+08f44d92f111002b0375aaf772ecf120,Leo's Pest Control,pest_control_service,['home_improvement_store' 'professional_services'],meta,-82.37159,36.3549,36.354860292803835,-82.37159528107665,,4.440495160633597
+08f266d4ac8d8a63033f8e1290f01f5b,AT&T Authorized Retailer - Forest Springs,mobile_phone_store,['retail'],Microsoft,-85.51061769036785,38.28890180632997,38.28894450361189,-85.51063991901735,,5.128801404620338
+08f2a9372849268a03133a48f2461dbb,AT&T Kiosk,mobile_phone_accessories,['mobile_phone_store' 'retail'],Microsoft,-84.6337846,39.0202602,39.019593478715954,-84.63320562544786,,89.43115553146171
+08f2aa591cc656080320b78731b38c9d,Forest Lake Campground,campground,['rv_park' 'lake'],meta,-75.5987327,42.0942589,42.0942589,-75.5987327,Accurate,0.0
+08f2a992cc158b310326e9972f47c7a4,Blue Bear Mountain,campground,['rv_park' 'mountain'],meta,-81.65613,36.3037624,36.30447862899146,-81.65636638223947,,82.40985278019528
+08f4898ca02e882e0396569af5a9960f,Great Rate DJs Austin,dj_service,,Microsoft,-97.955696,30.334784,30.334706003737814,-97.955779813362,,11.828686660473286
+08f44cd112499894031885d6e977f8b3,Gourdneck Cove,hotel,['seafood_restaurant' 'farm'],meta,-85.8069102,35.0750826,35.074796172378925,-85.80698667777729,,32.6008331300476
+08f44c03b3c4b74803fa95331a31b13b,El Tequila,mexican_restaurant,['restaurant' 'bar_and_grill_restaurant'],Microsoft|meta,-83.25731,33.0965509,33.09660037927645,-83.25720914751102,,10.88725089137529
+08f441a972188d1803bf05b8e3d9a105,Lorelei Resort,resort,['hotel' 'lodge' 'motel'],Microsoft,-82.7667395,27.76448567,27.76441267099401,-82.76692723011243,,20.176177553716183
+08f2a307469246a80307a3da7e68ff62,Bob's Discount Furniture,furniture_store,['mattress_store'],meta,-71.018024,42.4912917,42.491328890136145,-71.0177273201115,,24.674643150651182
+08f264d00e58ec9c03066bf2205627f2,"Beal, Nations & Crutcher",divorce_and_family_law,['legal_services' 'lawyer'],meta,-86.8028157,35.967057,35.9669935698,-86.80285917329459,,8.065579044621588
+08f44c8645a0da92031ef0c62c8c52cc,Los Primos,texmex_restaurant,['mexican_restaurant' 'restaurant'],meta,-84.5845913,35.9116312,35.91165523147111,-84.58461905291303,,3.6589027261850435
+08f28341a635159c036d95a5cf695a4c,Verutti Liquor,liquor_store,,meta,-121.9650591,36.9686786,36.96869607316138,-121.96508442244516,,2.972534361672111
+08f265b02db0c93203bffca9a27c2ec0,Big K's Catfish Barn,restaurant,['seafood_restaurant' 'southern_restaurant'],meta,-91.6386699,34.8237898,34.8237898,-91.6386699,Accurate,0.0
+08f44d075a9a3658036bc19f809d154f,CVS Pharmacy,pharmacy,['medical_supply' 'shopping'],Microsoft|meta,-79.9930258,32.8822184,32.882102192196804,-79.99299603069184,,13.217354320087514
+08f44ad8c68507a8037735bc77ec3f05,Toby’s Rv resort,campground,['travel' 'transportation'],meta,-81.8151133,27.2162835,27.209910822754424,-81.81495692417165,RV Park,708.7780841701363
+08f44c57614e066b034936fd6fbb52b4,Caldwell And Irvin,lawyer,['criminal_defense_law' 'hospital'],meta,-84.327282,32.8839667,32.883933555349905,-84.32735077548419,,7.404523186641162
+08f29a1d757754ea0332f1270404dc2f,Peking Tavern,chinese_restaurant,['restaurant' 'diner'],Microsoft|meta,-118.2438847,34.0494296,34.049518636109404,-118.24377127478616,,14.39511580673777
+08f2836ad5d7590603f20d31248711ae,All-In Machining,machine_shop,['professional_services'],meta,-121.4276718,37.7682083,37.7682083,-121.4276718,Accurate,0.0
+08f44a9642658c8803a561ecc750e2e3,Highspeed Animal Trapping,pest_control_service,['pet_services' 'contractor'],Microsoft|meta,-81.1896074,28.9222065,28.9222065,-81.1896074,Accurate,0.0
+08f44e5ac63025a6031ebef7af5ce791,Jewel In The Sand,hotel,['travel' 'active_life'],meta,-86.4777388,30.3843409,30.38445154988649,-86.47772457905423,,12.37909417936186
+08f29a07a62817730302a63090031200,Cabins4Less,hotel,['appliance_repair_service' 'airport'],meta,-116.9109587,34.2417063,34.24176404564804,-116.91058839120323,,34.63970341525663
+08f2a1380a48593603ab50ef9c0d6d7a,New Jersey State Funeral Directors' Association,funeral_services_and_cemeteries,['community_services_non_profits'],meta,-74.0972747,40.1515999,40.15160227947648,-74.09788350344716,,51.743392850832684
+08f28ac808b6d62903a342e7ce0a59e4,Drake Peak Lookout Cabin,hotel,['accommodation' 'lodge'],meta,-120.1578736,42.300516,42.300516,-120.1578736,Accurate,0.0
+08f269d8cd34e8e303a6861b23cf6202,Quality Inn Near Western State Colorado University,inn,,Microsoft,-106.922533,38.544537,38.54463136467167,-106.92258344052829,,11.372936880918491
+08f2a10a9446365e03da452ad2e58a68,Sushi.Com,noodles_restaurant,['pan_asian_restaurant' 'soup_restaurant' 'sushi_restaurant' 'food' 'restaurant'],Microsoft,-73.5320206,40.7720798,40.773572111336776,-73.53312733264487,,190.31757264595407
+08f4880d8ec6476a0305a636ddee7ceb,PMDG Marketing Communications,advertising_agency,['public_relations'],meta,-99.5049727,27.5077734,27.50774541667929,-99.5049727,,3.111603293913523
+08f446ca107320980360538745e5f994,Kyla On The Go Westbury Notary Services,notary_public,['professional_services'],meta,-95.4926648,29.6412157,29.641234129421917,-95.49275957048214,,9.385441214577
+08f489e346b8401503461b9aebb3a215,Gennovacap,web_designer,['software_development' 'professional_services'],meta,-97.7524675,30.2589384,30.25905565942288,-97.7524180523782,,13.876652868295496
+08f29b6d1850a1b103ec52a03b37d9a9,Hansen Mortuary,funeral_services_and_cemeteries,,Microsoft|meta,-112.0659841,33.5587485,33.55872955279573,-112.06551965390544,,43.0875349936039
+08f44de4f20da7a403b6e4e2fc35eaac,Golden Dragon II,chinese_restaurant,['asian_restaurant' 'japanese_restaurant'],Microsoft|meta,-80.0709449,34.3757387,34.375667304524384,-80.07086431746399,,10.849779718859264
+08f29a56736714880313f8dfb2b06f79,Nigel Villanueva,lawyer,['criminal_defense_law' 'courthouse'],meta,-118.3853271,33.8394791,33.839366049396425,-118.3853579618792,,12.889759351265393
+08f26ca0d55a61680327a670665934f8,MrJims.Pizza,pizza_restaurant,['food_delivery_service' 'fast_food_restaurant'],Microsoft|meta,-98.1037085,32.8082371,32.808203474024616,-98.1037383939762,,4.667538280956665
+08f274c4e80291a5037429a164b11a39,Bulldog Party Store,convenience_store,['party_supply' 'liquor_store'],meta,-85.4831668,43.6755155,43.67560178121162,-85.48303181203367,,14.48797119181166
+08f266d32abaa11803e0d41579b1f299,Redbox,clothing_rental,['clothing_store' 'rental_services' 'rental_kiosks' 'real_estate_service' 'kiosk' 'food' 'retail'],Microsoft,-84.5718575,38.0047308,38.004534606950635,-84.57193314360917,,22.8002139071556
+08f44d5ce060395903a3c4e542d378f8,Advanced A/V Rentals,event_planning,['audio_visual_equipment_store' 'party_supply'],meta,-81.0472546,32.0662714,32.06627292766715,-81.04706143834771,,18.202497599413835
+08f26e51319882d2035e864bfa197b56,Rustic Creations and More,arts_and_crafts,['education'],meta,-95.7436789,39.0530757,39.0530757,-95.7436789,Accurate,0.0
+08f44c174d4566a303b260efbcaff2e1,Walgreens,medical_supply,['pharmacy' 'convenience_store'],Microsoft|meta,-84.0395074,34.0017979,34.00204639502723,-84.03957782515788,,28.383786169371287
+08f270bb0a61c1210318c322ad9453df,Hwy 73 Tavern,bar,['pub' 'bar_and_grill_restaurant'],meta,-93.02224,47.30483,47.30479781981689,-93.02235024674177,,9.05015751590294
+08f2b8bd6297249503aca0a3f8a4bcbb,"Michael N. Kalil, Esq. LLC",divorce_and_family_law,,Microsoft,-75.253608,43.093135,43.09303859176117,-75.25350033560815,,13.832874866199298
+08f4440cac4dc519034a2647a4c81576,Radiant Health of Baton Rouge,health_food_store,['vitamins_and_supplements' 'hospital'],meta,-91.1066354,30.428128,30.42839125718361,-91.1070695375769,,50.8874046747367
+08f44f6a95c9b02103105fd40c76bfe4,Flagler Habitat ReStore,furniture_store,['charity_organization' 'shopping'],meta,-81.2687104,29.5551211,29.555107656379143,-81.26882047878465,,10.75195079856854
+08f44dd4d125146c032d6ebce8467477,Food Lion,retail,,Microsoft,-82.077913,35.036747,35.037099563784885,-82.07801441652052,,40.27598428417537
+08f44dd48eca9d95039aede80a193597,True Value,hardware_store,['shopping' 'home_improvement_store'],meta,-82.0032554,34.9348816,34.9348816,-82.0032554,Accurate,0.0
+08f5d1151a5039630335512ed58ecdd7,Terminix,pest_control_service,['contractor'],Microsoft|meta,-155.0516518,19.6371878,19.637104872828488,-155.0516412014799,,9.287644528298898
+08f44c05a9d85d4e03cde841f1c8d3d3,The Cornbread Cafe,cafe,['american_restaurant' 'restaurant'],meta,-82.7193182,32.7305391,32.73066625676701,-82.71923795440571,,16.00808565942236
+08f2681b4e66d58c03b6d65162bf0df7,Redbox,rental_kiosks,['kiosk' 'food' 'retail'],Microsoft,-105.0100064,40.0022487,40.001946901582414,-105.00983810827896,,36.49182290638138
+08f446c131498ce303ae88cb34142137,Best Storage,storage_facility,['automotive_storage_facility'],meta,-95.074934,29.447972,29.44754264910055,-95.07505836851423,,49.237036125692406
+08f264e920322773037776c0c8fe6fe2,Classic Trains & Ferraris,toy_store,['gift_shop' 'car_dealer'],meta,-88.6671459,37.0353568,37.035414806030005,-88.66718419186677,,7.29072615628906
+08f2a30294c15c2503fd7cb51272a73d,Lexur Studios Films,event_photography,['professional_services' 'cinema'],meta,-70.97449,42.37772,42.37761487919011,-70.97446831863866,,11.823796437167104
+08f44db4d2c538c903549fabbf097717,Champs Sports,sporting_goods,['sports_wear' 'shoe_store'],Microsoft|meta,-80.2996884,36.0702136,36.0703114211427,-80.29937511539445,,30.185412198473912
+08f264db36b0956503da2e0fb3a43027,Hampton Inn & Suites Lebanon,hotel,['accommodation' 'travel'],Microsoft|meta,-86.321248,36.183534,36.18359235779446,-86.321248,,6.489090674525855
+08f29aac89a5ca8603e3037ac2c12c9e,Jersey Mike's Subs,sandwich_shop,['fast_food_restaurant' 'caterer'],Microsoft|meta,-118.0580553,36.5840357,36.583919523003374,-118.05783617896898,,23.444930285457453
+08f264d10e4998140334ab60d1b30387,Nashville Daily Spirits,liquor_store,['winery' 'grocery_store'],Microsoft|meta,-86.7640078,36.112259,36.11238351166975,-86.7640916566215,,15.761659023118261
+08f2ab10810a407403013d0d238e4ba1,CF Lodging and Equine Motel,hotel,,meta,-80.71781,41.37282,41.372387547122294,-80.72378652050918,,501.0159324786214
+08f2a9b91430cc800372302ee7a173ee,double kwik,convenience_store,['retail'],Microsoft,-82.78298918,37.12361621,37.123598103023774,-82.78292208507253,,6.2801101726770625
+08f262dd9ba70a08035cffb4a82a23e2,Strut,advertising_agency,['web_designer' 'graphic_designer'],meta,-92.464114,44.0264703,44.02653520949634,-92.464114,,7.217606684005284
+08f275998262d34203b1917d589f7e36,Marty's,american_restaurant,,meta,-88.214377,42.763143,42.7631521037438,-88.21439807348828,,1.9960775855374826
+08f2759c1b245d4603609f2255107c91,La Michoacana,ice_cream_shop,['restaurant' 'pancake_house'],meta,-88.6459369,42.6331511,42.63320406181194,-88.64591577121189,,6.137503394395512
+08f279b03339454003cf217e4fa63784,Liberty Ranch Campground,rv_park,['campground' 'professional_services'],Microsoft|meta,-108.0471593,44.3729559,44.37305934453386,-108.04725693837798,,13.875644544093094
+08f446c1a11aca4a0343feecf4e89523,Shipping Containers Depot,professional_services,['shipping_center' 'freight_and_cargo_service'],meta,-94.98568,29.49849,29.498464605298057,-94.98573783212338,,6.26899874795979
+08f2675162b360a8039ca870855c8d8d,Sunnyfield Greenhouse and Garden Center,nursery_and_gardening,['landscaping' 'gardener'],meta,-89.9444844,41.1844849,41.18423814936717,-89.9450828401833,,57.10383190753779
+08f28d5c1ca5ac8e03a76327e1c6c641,Dash Point State Park Campground Entry,campground,['rv_park' 'attractions_and_activities'],meta,-122.406626,47.3170809,47.3170809,-122.406626,Accurate entry,0.0
+08f2b8cb46b9dd52033c26958a790691,Casella Waste Systems,garbage_collection_service,['recycling_center'],Microsoft|meta,-73.1272269,44.4654794,44.46541264857099,-73.1269513157669,,23.094736182226484
+08f266a5095194f4030fa4944d5c4bb4,Bud's Hardware Store,hardware_store,['shopping' 'home_improvement_store'],meta,-87.8960829,37.9325016,37.932534298612765,-87.8959035989518,,16.14017183889809
+08f2655cc3033164034b93fb99f8c768,StorageMart,self_storage_facility,['retail'],Microsoft,-92.3664256,38.9680207,38.9676421708033,-92.36622844935091,,45.41063581350859
+08f444dae300d8e803adcb883a790aaf,Metro by T-Mobile,mobile_phone_store,['retail'],Microsoft,-94.967641,33.1420202,33.142167582894345,-94.96770682523308,,17.49671081940247
+08f266b07605acc6038b593fe0c5eefa,Employment & Training Office,employment_agencies,['central_government_office' 'public_service_and_government'],meta,-86.438665,36.992838,36.99275260994625,-86.43857743663486,,12.27320144595179
+08f26557ad188a0403c4449507074c1e,United States Postal Service,shipping_center,['post_office'],Microsoft,-92.36484736204147,38.54151641027874,38.5415204859969,-92.36481511379826,,2.841069579701642
+08f441319077160103f14be3de2aa2a3,KYZ Law PC,business_law,,Microsoft,-81.744246,26.274366,26.274382076472385,-81.74431736460808,,7.336649313874249
+08f274b0e8481d1503125256b6a2eaa4,Blackopsairsoftandlasertag,event_planning,,meta,-85.880185,41.6081115,41.60803344024769,-85.88047274896826,,25.449642316244717
+08f260a7434dd2920366c4f0cec509d0,Holiday Inn Express & Suites Beatrice,hotel,['accommodation' 'travel_company'],Microsoft|meta,-96.7478494,40.3077789,40.30775164822114,-96.7482292244423,,32.34949071383255
+08f2a30d5a2642830391da71c64e6845,Raef Granger,professional_services,,meta,-70.7591796,43.0770043,43.07678201210696,-70.75917573042022,,24.71928405276603
+08f2888a71cdc41303f2b7ccddd07e4c,Upchurch Vineyard,winery,['wine_bar' 'liquor_store'],meta,-119.4609101,46.2598053,46.2598053,-119.4609101,Accurate,0.0
+08f489c0907b472c03e4fb9b01fc152e,Boss Products,shopping,['property_management' 'professional_services'],Microsoft|meta,-98.285823,29.6105493,29.610583700889705,-98.2859171006036,,9.868529616404752
+08f12db0c2a0b692038632ab1b6f87f4,Exxon,convenience_store,['gas_station' 'automotive' 'retail'],Microsoft,-117.42166148404408,47.74744460670505,47.747445641875,-117.42161196524091,,3.704183396480458
+08f44c13208a677503951857b8d6c16c,SearchNom Agency,marketing_agency,,Microsoft,-84.36572,33.82771,33.827672671932625,-84.36551871791364,,19.050371790015557
+08f2664c1e2aa55a03698a88b64cd513,Libra Hotel,hotel,['travel_company' 'tours'],meta,-87.6250229,41.8870506,41.886906440352426,-87.62517279337561,,20.271160944279355
+08f2a96a0e2ab0a303e6393a66e3f863,Ten Mile Woods Apparel,fashion,,meta,-84.3398236,40.8443763,40.84440576317034,-84.33986510785304,,4.787909467467032
+08f0c146600a077203e8ef1c8f05f161,Safeway,retail,,Microsoft,-165.4081247,64.501067,64.5008726938412,-165.4081247,,21.605859074122602
+08f26e51302a39350354a9e2e0757f72,Quik Print Topeka,printing_services,['sign_making' 'professional_services'],meta,-95.7658773,39.05208,39.05225170070096,-95.76600636195776,,22.10693277228274
+08f2a1a4b496dcd303abc27c49df82d7,OC Beach Vacay - Boardwalk Condo Rental,holiday_rental_home,['landmark_and_historical_building' 'accommodation'],meta,-75.0796633,38.3419413,38.341951018800955,-75.07966019918872,,1.1140038636985679
+08f2a149301662aa03d5f5baa76068e3,Redbox,video_and_video_game_rentals,['books_mags_music_and_video' 'rental_kiosks' 'kiosk' 'food' 'retail'],Microsoft,-72.5436689,42.2470793,42.24658351688517,-72.54311724559275,,71.42168423667705
+08f2675dae30396303aa2a5c79717f2f,AmDesign,jewelry_store,['trophy_shop'],Microsoft|meta,-90.505831,41.577655,41.57756056565746,-90.50558832839826,", ",22.75338013582066
+08f29a1d75adeb6c032b918f7b955b04,STK Photo,professional_services,['event_photography'],meta,-118.2538661,34.0458034,34.0461149176362,-118.25416468385102,,44.23428544437436
+08f44442a48a2d06031f93035eb8b879,Bayou Sneaux & Snacks,restaurant,['food_stand' 'hot_dog_restaurant'],meta,-91.800429,30.0018419,30.001918799690927,-91.80007649776498,,35.00493294137882
+08f267184eb350d803674ef99ac0f071,DG Market,retail,,Microsoft,-90.0543,40.2938,40.29362615457664,-90.0543120442454,,19.357700298449544
+08f48e96eba12ad803ada08c43834f2f,Phoenician Concepts,retail,,Microsoft,-112.3594753,33.4324117,33.43520457308708,-112.35868734671642,,319.0448094312848
+08f489bd9a3199090304afd3812cced1,Subway,sandwich_shop,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-97.7132331,31.4254223,31.42558563177075,-97.7134957794616,,30.839344280866012
+08f2aa8782336ccc032bb55ffd3cc704,Zekaria,restaurant,['fast_food_restaurant' 'bar'],meta,-77.0638069,38.8005066,38.80031044805709,-77.06384457817776,,22.054139861713296
+08f2b99a60a61af603c2dac5a761bbb5,White Birch Campground,campground,['travel'],Microsoft,-77.0064315795898,43.2709922790527,43.2690637732625,-77.0064315795898,,214.44005987468705
+08f2baba667526dd034a617ff91939ab,Stiles Fuel,propane_supplier,,Microsoft,-71.604473,44.380427,44.38050617373343,-71.60489362897114,,34.568177668604
+08f26caa6c0e12a1035afb141c8c1d62,LiquorLand,liquor_store,['shopping' 'wine_bar'],meta,-97.2754889,32.8931654,32.89304178048194,-97.2754767340567,,13.792717925013054
+08f2a307656db41d03d662a6a3bdec1b,Rent-All,outdoor_gear,['rental_service' 'hardware_store'],meta,-70.9349285,42.491763,42.491745224972085,-70.93488688158439,,3.943466751724777
+08f26aa4361a092b030d4f6ca466db8d,Cruz Construction Solutions,professional_services,['contractor'],meta,-105.0742242,40.4220922,40.422092531749335,-105.07431938285256,,8.057446338241467
+08f269dd14a180de03557663ebb03589,1-2-Thai,thai_restaurant,['food_truck' 'asian_restaurant'],meta,-107.5977936,38.8693314,38.86552328629003,-107.59768751469107,,423.5425186651451
+08f268cc519a080d0392a013138ca729,Flintwood Floral,flowers_and_gifts_shop,['event_planning' 'shopping'],Microsoft|meta,-104.7732227,39.5447459,39.5447459,-104.7732227,Accurate,0.0
+08f2b8d79c953cb30399459366a31ea3,United States Postal Service,shipping_center,['post_office'],Microsoft,-73.69099706411362,43.481710946895184,43.48168874711525,-73.69100809672584,,2.6240905932390652
+08f44cc515c5283603c8a82b24bf7646,Menagerie on Main,flowers_and_gifts_shop,,meta,-84.4943757,34.2369148,34.2369148,-84.4943757,Accurate,0.0
+08f2ad20087595a6033fe3dd7fb34603,Prestige Funeral Home,funeral_services_and_cemeteries,,meta,-79.3740771,34.4209155,34.42126279363696,-79.37383504701734,,44.544819811951015
+08f29a0b6a91da0003aca87c941d4429,So Moon Nan Jokbal,korean_restaurant,['restaurant'],Microsoft|meta,-117.9764444,33.7747046,33.7747046,-117.9764444,Accurate,0.0
+08f2ad667627295203aa9e3d9375bee7,Cardinal State Storage,self_storage_facility,['storage_facility' 'professional_services'],meta,-79.1230788,35.0333666,35.03358855120045,-79.1230788,,24.679847452765745
+08f26c80c4c0019a031c06ec6d34a08e,"Rudd Legal, PLLC",divorce_and_family_law,,meta,-96.79056,33.23381,33.23475218427588,-96.7853419460779,,496.49737892195907
+08f44f690270d052038f18cdbfcf3789,Kappa Map Group,professional_services,,meta,-81.30283,29.02773,29.027738210556624,-81.30278400397097,,4.564304073904109
+08f28941944696c40330495c4a5c3c07,Mandarin Restaurant,chinese_restaurant,['restaurant' 'asian_restaurant'],meta,-111.7775941,43.8400722,43.84008983249743,-111.77735485807752,,19.287643905077637
+08f2aa6035868a13032638671646ea3a,Hometown Storage,self_storage_facility,,meta,-78.4020583,42.5495551,42.54906567238671,-78.40211254602606,,54.60298342022142
+08f266340d965902032f0e4e3468f049,Sol Del Mar Mexican Bar & Grill,mexican_restaurant,['restaurant'],Microsoft,-88.606927,39.599585,39.59947189616695,-88.60695275870748,,12.768742826153376
+08f264b6830cb42403b9982c9b28649c,Computer Universe,it_service_and_computer_repair,['computer_store'],Microsoft|meta,-88.7238272,34.2567122,34.2567122,-88.7238272,Accurate,0.0
+08f274075085e8ad03074313ff1b43bc,Welcker's Lounge,bar,['restaurant' 'american_restaurant'],meta,-87.2479153,45.1283416,45.1281575805439,-87.24802376303,,22.160717029890986
+08f2aa847286b130031d1110c4c0a9d5,Laundroland,laundromat,['cafe'],meta,-76.988603,38.991318,38.991318,-76.988603,Accurate,0.0
+08f2a10a1425674c03049cb5dbbe0849,Energy Fuel,burger_restaurant,['restaurant' 'pizza_restaurant'],meta,-73.3119232,40.7668177,40.76682204096057,-73.31199023993352,,5.6664362469688445
+08f28300ed7221ae03a5043f9b5e9f71,Consign & Design,thrift_store,"['shopping' ""women's_clothing_store""]",meta,-122.2991658,38.3232665,38.323176405515404,-122.29906887598231,,13.109214700242218
+08f2659a4e6f4173039b03538cc7a75a,Panera Bread,cafe,['sandwich_shop' 'bakery'],Microsoft|meta,-89.8562893,34.9605966,34.9605966,-89.8562893,Accurate,0.0
+08f4451ba601c36d03d8466728ae63a3,Church Street Cakery,bakery,['cafe' 'church_cathedral'],meta,-89.421095,31.2859277,31.286083704399093,-89.42119889822773,,19.959729635770618
+08f2a304458cb501037f69380780cad1,Liban D'Or,grocery_store,['shopping' 'convenience_store'],meta,-71.1897856,42.7284523,42.72847476375714,-71.1898030606875,,2.876345523851852
+08f28f0b26d1c61003d0233cb062ad85,Nash & Nichol,home_goods_store,,meta,-123.1931109,45.21015,45.21010693557815,-123.19315589847592,,5.946121918308816
+08f275249b5166560369769812369402,New Creations Child Care and Learning Center,day_care_preschool,['home_service' 'social_service_organizations'],meta,-93.6896303,45.3327406,45.33275913213917,-93.68971439005053,,6.888651983379159
+08f2b892182ce52c038fa261dbef6f98,Stair Galleries,auction_house,['antique_store' 'art_gallery'],Microsoft|meta,-73.7851866,42.2483704,42.2483704,-73.7851866,Accurate,0.0
+08f2b892182ce52c038fa261dbef6f98,Stair Galleries,auction_house,['antique_store' 'art_gallery'],Microsoft|meta,-73.7851866,42.2483704,42.248404932304155,-73.7851866,,3.8398170271025656
+08f44d85ab1a1a640395f03fecc054d9,7-Eleven,convenience_store,['gas_station' 'shopping'],Microsoft|meta,-80.9217055,34.9806077,34.98062690155992,-80.9216198670101,,8.088659832244533
+08f28d54da86668e037b7e013d5c8365,QFC,retail,,Microsoft|meta,-122.21938653850884,47.848552910349895,47.8487687142872,-122.21950261434742,,25.511750244625457
+08f29a18802e532b0324827f2dcfeeb6,Victor Tailor,sewing_and_alterations,"[""men's_clothing_store"" 'clothing_store']",meta,-118.44924,34.1847749,34.184783457038854,-118.44939907269,,14.663009293501338
+08f2699518a2d731030d61df2fa01098,Cubby Hole Storage,storage_facility,['packing_supply'],meta,-107.8512391,37.297622,37.29764419755366,-107.85129864814864,,5.81698510443004
+08f2a847013b675e032e4f2c97cdbbac,Laundry mat,laundromat,,meta,-79.909067,40.388236,40.38832837481454,-79.90909452441728,,10.532817888980185
+08f26d90eb6ca9940310049677ed9815,Diamond S Ranch - Sanchez Family,holiday_rental_home,['farm' 'accommodation'],meta,-99.2305353,32.3457721,32.345790395032004,-99.2306918246981,,14.844193457065366
+08f28d18252419660364864beb8952fd,Sequim West Inn,hotel,['motel' 'rv_park'],meta,-123.1198437,48.0797689,48.079807815086184,-123.1199089292701,,6.496623943371744
+08f464e72a35e494034d23ca9ac0fa10,Eleele Shopping Center,shopping_center,['shopping'],meta,-159.5855169,21.9052488,21.90560949171321,-159.5851057674833,,58.374894859161905
+08f44d503119ed55038bc90aa52b8796,Dollar General,discount_store,['arts_and_crafts'],Microsoft|meta,-81.2339361,32.2891951,32.289135890144244,-81.23372211906003,,21.164328438942345
+08f26560e9c2b72e03d540c3119c8f74,Auction It 4 Me,auction_house,['professional_services' 'financial_service'],meta,-94.3785768,39.0349842,39.03502638877418,-94.3785768,,4.69117764991811
+08f441a461041a0e03f57c6442c7dc01,Magnolia Trace RV Park,rv_park,['campground' 'professional_services'],meta,-82.1662065,28.2425354,28.2425403031453,-82.16750661001127,,127.35660861366506
+08f26c937305549d03c942a51ae56607,Adams Design Service,architectural_designer,"['shopping' ""children's_clothing_store""]",meta,-95.301468,32.347486,32.34742213955982,-95.30151327035456,,8.277008055400435
+08f2a8b209300a7603fb0d4968cac5c1,Siler City Moose Lodge,bar,['lodge' 'event_planning'],meta,-79.4522757,35.7192076,35.71944218058444,-79.45221812631094,,26.596977520653958
+08f2664c95b3099803447b363f8baf29,"Alejandra I. Vilchis, Attorney at Law",divorce_and_family_law,['adoption_services' 'health_and_medical'],meta,-87.8040334,41.9086042,41.90869530519918,-87.8041194380588,,12.382170590816182
+08f28d5429d4569a03661780dc37bcc7,The Sushi Samurai,sushi_restaurant,['japanese_restaurant' 'seafood_restaurant'],meta,-122.3570787,47.6353051,47.63526966663786,-122.3570787,,3.9400101030301338
+08f2a364d379b974033dc5e61c5ddc56,Hotel Coolidge,hotel,['travel' 'museum'],Microsoft|meta,-72.3188791,43.6480214,43.6480214,-72.3188791,Accurate,0.0
+08f26aacdad61c2103b1bf12800193ed,United States Postal Service,shipping_center,['post_office'],Microsoft,-104.85098161183949,40.5240043900689,40.5240043900689,-104.85098161183949,Accurate,0.0
+08f2a100882d66c0039980aec7834f95,String Player Central,musical_instrument_store,['musical_instrument_services' 'retail'],Microsoft,-73.97641,40.78779,40.78790350384913,-73.97654785304312,,17.145984982951948
+08f2a1272865b2ad030393d2e263965c,Walmart Grocery Pickup,grocery_store,['shopping' 'supermarket'],meta,-75.4877814,40.644399,40.644399,-75.4877814,Accurate,0.0
+08f2a312c624500a038c2fa00db69f76,The Beachside on Nantucket,resort,['hotel' 'motel'],Microsoft,-70.1031851,41.2895769,41.29026117008193,-70.10231360571703,,105.31395176825717
+08f266812e1b0b1e03f515b5a64b633b,Magpie Avenue,boutique,,meta,-86.1256554,38.2104222,38.21045268878079,-86.12565648813546,,3.3915305216807305
+08f266694b8dd34103db5d8f268c8bfe,SNT Biotech Lab,pharmacy,['health_and_medical' 'laboratory_testing'],meta,-88.2061076,41.6186691,41.61904845489594,-88.20625679758533,,43.96780874502259
+08f44d07088ec660039e8c30926bcd5c,Residence Inn by Marriott Charleston Downtown/Riverview,hotel,['accommodation' 'business'],Microsoft|meta,-79.9655274,32.7775184,32.77761815752722,-79.96605882420499,,50.90625176091645
+08f2a30c4673036e03665822befc4416,Portsmouth Invitation Company,printing_services,['shopping' 'arts_and_crafts'],meta,-70.8054183,43.009466,43.00942918790881,-70.80525456623876,,13.928306101632643
+08f2652905d1006d036995518da59108,Price Chopper,grocery_store,['health_food_store' 'american_restaurant'],meta,-94.3598256,38.6527268,38.65262545831728,-94.35965110507632,,18.88349804236901
+08f2a107756f1b2003ea02197b5b07c1,Dipon Mobile,mobile_phone_store,['financial_service' 'electronics'],meta,-73.9792532,40.6425953,40.642554673368835,-73.9792532,,4.517475272912241
+08f2b8e05bd8d821030d3d82f3ed1a9b,Serendipity's,bar,['dance_club' 'pub'],meta,-75.4690657,44.3346188,44.33459302139033,-75.46904845603669,,3.17765999059357
+08f44550949406a80323a45c9b29f172,Hotel Vela,hotel,,Microsoft,-89.09175714110451,30.36865409087421,30.368636188194916,-89.09163752826859,,11.646793567859365
+08f2832171a6a6a3037a788a5eceaf26,Clock Tower Self Storage,self_storage_facility,['storage_facility' 'professional_services'],Microsoft|meta,-121.1691802,38.7023859,38.70185188277781,-121.1702188964324,,107.93682454801812
+08f44f009c73212803cfa85f7b93f01a,Third and Main,hotel,['landmark_and_historical_building' 'real_estate'],meta,-81.65428,30.33937,30.339273788569805,-81.65405215699347,,24.342245906869415
+08f48c6c6a1538dd035389c7b17be7e9,Unique Soccer,sporting_goods,['clothing_store' 'shopping'],meta,-106.4122934,31.782895,31.782812905593616,-106.41225634461756,,9.77736353196983
+08f2a134ac30a72e03e81070c7225208,Pho Ha Saigon,vietnamese_restaurant,['restaurant'],meta,-75.107989,40.0358935,40.03594675166604,-75.10798076395176,,5.9626860726854956
+08f27434266e6b3103d9de9bb1fa3249,ALDI USA,supermarket,['grocery_store' 'shopping'],Microsoft|meta,-88.0708005,44.4837608,44.48366892931073,-88.07067244266322,,14.407070888777637
+08f2a1225e49c46e0373a4acca5798d4,Childtime of Doylestown,child_care_and_day_care,['education'],Microsoft,-75.09884,40.28403,40.283953741343,-75.09873183791936,,12.493235380909043
+08f29898cd6492f00319bd2ea9f7aa7a,Jiffys Pizza Tahoe Vista,pizza_restaurant,['food_delivery_service' 'italian_restaurant'],meta,-120.0480909,39.2397206,39.23969823145256,-120.04820136549878,,9.83318993213639
+08f2a1227391869c0340b42a0b2fb9d1,Cook & Gardener Vintage + Antiques,gift_shop,['antique_store' 'retail'],Microsoft,-75.03308859,40.34648265,40.3464163557581,-75.033047692888,,8.145711708200192
+08f2986b9500151403000839843a0fef,Vivida Dermatology,professional_services,['doctor'],Microsoft|meta,-115.1230373,36.1154455,36.11550035436682,-115.12310011223816,,8.308960294333056
+08f2a91d6a4969b203b7fa6ebcd7ac79,Rhino Self Storage - South Bloomfield,self_storage_facility,,Microsoft,-82.9882652,39.7228852,39.7229271085437,-82.98818852359538,,8.044859534109706
+08f2b9b34d2f3cc603e6e324483b99d1,Amabel Provisions,specialty_grocery_store,['cheese_shop' 'restaurant'],meta,-78.8771698,42.9243775,42.9245628830178,-78.87714498144814,,20.712465293407224
+08f44554529961a503a33f1b232cad5b,D'Iberville Memorial Park,funeral_services_and_cemeteries,['public_service_and_government' 'park'],Microsoft|meta,-88.8873648,30.443667,30.442824706484103,-88.88598771601744,,161.86282227504745
+08f2a100c338916003d9d5f8b3f40a22,Telco Stores,department_store,['discount_store' 'clothing_store'],meta,-73.8953824,40.7006783,40.70063941183623,-73.89538587362944,,4.334070075132805
+08f2a33170a7516503e1061a055bc74e,Family Dollar,discount_store,['shopping' 'retail'],meta,-71.3531772,41.8575093,41.85745067631435,-71.35319494124332,,6.682196240868642
+08f29a1d58c403a50322528dbaff3bd1,IHOP,breakfast_and_brunch_restaurant,['restaurant' 'american_restaurant'],meta,-118.2430402,34.15502,34.155009320942824,-118.24305987250798,,2.1649111711948756
+08f2640c507a574b03f3da764f851ea1,Soccer Master,sporting_goods,['shopping' 'hunting_and_fishing_supplies'],meta,-89.9238948,38.5717815,38.571782089989355,-89.92392771218893,,2.861981930338509
+08f2661a308b5401037bdedbf16f4520,Pride Academy,day_care_preschool,['home_service' 'preschool'],meta,-86.2557025,39.7948393,39.79479468682909,-86.25556285624135,,12.920810089262764
+08f44a915b9a2b8c03ffbe330ff14b89,Climax Smoke Shop,tobacco_shop,['retail'],Microsoft,-81.45821,28.484735,28.48485211343787,-81.45831380059259,,16.507620150274022
+08f2aa845cd0d733039915c6b9eb1b29,Monte's Sweet Sorrel,tea_room,,meta,-76.99274,38.92584,38.92583549720824,-76.99259542522977,,12.516486664940247
+08f29a4720505a2603ba8536e42e6915,"MKA International, Inc. (MKA San Diego)",engineering_services,,Microsoft,-117.0832979,33.0154527,33.015137086435075,-117.08349490900484,,39.61130582430022
+08f44ed29315299403980e038961210f,Circle K,convenience_store,['home_and_garden' 'hardware_store'],Microsoft|meta,-87.6028317,33.2658304,33.26600752083566,-87.60268667891516,,23.868103665115488
+08f44cd5a3a1d35903c903d56f6e07b5,Carlos Bail Bonding,bail_bonds_service,['legal_services'],meta,-85.3084825,35.0481236,35.04809841085519,-85.30851700304846,,4.208348655542982
+08f2aaab0a12207303f870c0bea0a166,Popeyes® Louisiana Kitchen,chicken_restaurant,['fast_food_restaurant' 'american_restaurant'],Microsoft|meta,-77.3599711,38.8635456,38.86354768567541,-77.35780016449668,,187.96212255238916
+08f2a9a544099a3303f1cfbe09906913,Doctor's Inn,bed_and_breakfast,['hotel' 'accommodation'],meta,-84.3029329,37.5678235,37.56788133689549,-84.30295648388018,,6.758737586923028
+08f489d59ab606c803517ccee128ff0f,Chateau Burg RV Resort,rv_park,['professional_services' 'automotive'],meta,-98.9018371,30.237558,30.23775596128681,-98.90209222701372,,32.94291984394235
+08f28300a306e24e0322af6f6f066631,Laundry Depot,laundromat,['dry_cleaning' 'shopping'],meta,-122.055762,38.249538,38.24961601499425,-122.05578294272088,,8.865545449319391
+08f44a9598b62085030e8a8dbdbf1fa4,Orange Pest Control,pest_control_service,['contractor' 'nursery_and_gardening'],meta,-80.7884147,28.3650288,28.36502412152585,-80.78832368538198,,8.920482092498201
+08f2aacce82d6a6103845e2dbb3c7c54,Kinder-Haus,day_care_preschool,['home_service' 'school'],meta,-76.0647554,40.1031967,40.10354305777199,-76.06468650570238,,38.95642271818014
+08f44e554c71e3340398cae2f4547f36,Keto on the Beach,bakery,['cupcake_shop'],meta,-85.8146,30.18684,30.18709097464798,-85.81474483929105,,31.186696821099137
+08f44a821121399003402174c2ce6e04,Cumberland Farms,convenience_store,['gas_station' 'shopping'],Microsoft|meta,-80.700681,28.0794512,28.079427658672603,-80.70073478510395,,5.8903003912868055
+08f2748042da1a5303eb5bc2848e5b4c,Starbucks,coffee_shop,['cafe' 'post_office'],Microsoft|meta,-85.2999334,42.6472063,42.64768823011666,-85.2997627269334,,55.376411380738006
+08f2aa858c02575d03761a5b6e3c2964,Biscotti Restaurant,italian_restaurant,['restaurant'],meta,-77.1448693,39.1450187,39.14506234734407,-77.14493465715833,,7.437885606737624
+08f2aaa281466414032b6b584786986f,Albana's Taverna,greek_restaurant,['restaurant' 'burger_restaurant'],meta,-78.0020438,38.4791931,38.479246576385,-78.00203631998713,,5.981844625929655
+08f266d488d16508035fdb9cd0f1d9e5,Law Office of Nick C. Thompson,lawyer,['legal_services'],meta,-85.57432,38.23575,38.235724105954354,-85.57442675201978,,9.758219771365397
+08f44d983279db530333f0c5bfd9ba97,CVS Beauty,shopping,['beauty_and_spa'],meta,-82.5066907,35.5705523,35.570357902933814,-82.50557257686859,,103.41416554770272
+08f12db39396954003349b18c417b8b9,"Little Caesars Pizza (1521 N. Argonne Rd. Spokane Valley, WA)",pizza_restaurant,['restaurant' 'fast_food_restaurant'],Microsoft|meta,-117.2832759,47.6710429,47.67104335154074,-117.2832242674749,,3.866421449789173
+08f26e8596cd54a2039a344846991bbc,Eleganza Select Granite and Marble,home_improvement_store,['granite_supplier' 'business_to_business' 'retail'],Microsoft,-95.86859,36.0831306,36.08312620290566,-95.86899320025222,,36.23635073451829
+08f264626e598c9b0387b05d57221b4c,Objex Design,professional_services,['fashion' 'marketing_consultant'],meta,-90.3193877,38.6126409,38.61264764690475,-90.31931732680026,,6.160284753069787
+08f2a310c538431a031dac960edb1fe4,Inn at Swan River,hotel,,Microsoft|meta,-70.151882,41.6678376,41.66792186506467,-70.151882,,9.369847685141263
+08f2a3286a8c460603917d5a10809fea,Circle K,convenience_store,['gas_station' 'shopping'],Microsoft|meta,-71.7185768,42.8408244,42.84094426782924,-71.71863164374126,,14.05877412893776
+08f2a9052a9508a203eea7ca4a4ecef5,Gehret Funeral Home,funeral_services_and_cemeteries,['public_service_and_government'],Microsoft|meta,-84.3639504,40.3507536,40.350801764463746,-84.36392977197512,,5.633699525648401
+08f29a0ce549e59103ab46a432e39549,Hemet Radiology Medical Group,pharmacy,['health_and_medical' 'laboratory_testing'],meta,-116.9372757,33.7478457,33.74816044314922,-116.93746429959164,,39.101310732212504
+08f489c458d5bc9c0392b094d48acbb7,Las Fontanas Mexican Kitchen,texmex_restaurant,['mexican_restaurant' 'latin_american_restaurant'],Microsoft|meta,-98.1563092,29.7128998,29.712883767715965,-98.1563195049762,,2.041685498702114
+08f2a823a634215903f06acae2099f65,William B. Summers & Associates,dui_law,['divorce_and_family_law'],Microsoft,-81.53522,39.285837,39.28580574345038,-81.53523873292943,,3.831305965208783
+08f26d38ce185c8e03a61ce0134d7cd2,Superior Tanker Wash,seafood_restaurant,['car_wash' 'auto_detailing'],Microsoft|meta,-102.3919536,34.8186736,34.8186736,-102.3919536,Accurate,0.0
+08f44a828b67117003907983dbf5651a,Bremer Boys LLC,construction_services,['landscaping' 'home_service'],Microsoft|meta,-80.6062656,28.179978,28.180066069493552,-80.60646475402713,,21.838783616616038
+08f2664cf3081d5b035a531ea4fa0dd1,MJD Auto Repair,tire_shop,['automotive' 'retail'],Microsoft,-87.66470432723162,41.812966849164134,41.812966849164134,-87.66470432723162,Accurate,0.0
+08f27ad692142b2603c11f016f0c96bf,AT&T Store,mobile_phone_accessories,['mobile_phone_store' 'retail'],Microsoft,-101.2950526,48.1994123,48.19907796055158,-101.29530933626272,,41.76355177005054
+08f2832b0516d8d00328df5183e622bd,Power Market,convenience_store,['gas_station' 'delicatessen'],Microsoft|meta,-121.5507659,38.5395074,38.5395390736015,-121.55079660755187,,4.420077686493617
+08f444b02eb5018803b9a7b920fe5198,Mother's Day Out Daycare Program,day_care_preschool,['preschool' 'home_service'],meta,-93.0603817,34.4615934,34.46176098933047,-93.06047093097384,,20.351688283031837
+08f262d9a350240203fd164fba637938,143,home_goods_store,,meta,-91.81909,44.10014,44.100197045381094,-91.81918352693394,,9.798521253747772
+08f2830821a034dc038a111a596b5b94,Southern Glazer's Wine & Spirits,liquor_store,['shopping' 'wine_bar'],meta,-122.402261,37.740232,37.740389079808565,-122.40205225038356,,25.337986649924364
+08f26c02b35098e1039a9526346b48ef,Best Western Plus Weatherford,hotel,['travel' 'travel_company'],Microsoft|meta,-98.7015018,35.5263756,35.52618599140631,-98.7016607906728,,25.525069108075954
+08f2749945d9454403da52fa1f9b99c9,Musser Love,divorce_and_family_law,['wills_trusts_and_probate' 'criminal_defense_law'],Microsoft|meta,-83.8250444,42.2877699,42.28782626179931,-83.82507070201824,,6.630098609538914
+08f2659ac52b18a203d57f1c11a67ec9,Furniture Mart,furniture_store,['mattress_store'],meta,-90.0151233,34.9614971,34.96146768558272,-90.01512719187224,,3.2899064596503482
+08f26c876e7b6b6803b92a7215133bdc,Dogness Group,pet_store,['wholesale_store' 'event_planning'],meta,-96.7735129,33.054951,33.055065300570696,-96.7735908945389,,14.641452998152358
+08f2a100ee00e04a034133e5a32880e4,Sandwich Bar,sandwich_shop,['fast_food_restaurant' 'middle_eastern_restaurant'],meta,-73.8221894,40.7269736,40.7269702738112,-73.8222086878045,,1.666867535566766
+08f28d1694c09548031faa0f2c3113df,Rustlers Front Street Grill,american_restaurant,['restaurant' 'breakfast_and_brunch_restaurant'],meta,-122.4519321,48.9430241,48.94299792618486,-122.45191931325948,,3.056551293838472
+08f446cc1c88c2c40352b69f8b1cd7db,The Mansard House,hotel,['accommodation' 'motel'],meta,-94.791864,29.2988859,29.29890455217302,-94.79173166763265,,12.998892464860054
+08f281c348655a3603e51d331b25281d,Zola's on the Water,bar,['pizza_restaurant' 'american_restaurant'],Microsoft|meta,-124.2686234,42.0523627,42.0523627,-124.2686234,Accurate,0.0
+08f44d8b24af520e0317eed934fcaaac,Masons Hot Rods and Hobby Store,hobby_shop,['shopping' 'auto_customization'],meta,-82.0052421,34.9855901,34.98557325918377,-82.00529912415885,,5.522193650430711
