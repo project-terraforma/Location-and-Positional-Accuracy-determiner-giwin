@@ -1,67 +1,67 @@
-# TruePin
-**Prototyping a Spatial Repositioning System for Overture Maps**
+# TruePin: Spatial Repositioning Prototype
 
-## Project Overview
-The goal of **TruePin** is to assess and correct the spatial positional accuracy of Points of Interest (POIs) in Overture Maps. While Overture provides frequent global map updates, the geographic "pin" locations for many businesses are misaligned based on real-world routing needs (e.g., placing a pin in the center of an inaccessible mall roof rather than the main parking lot entrance).
+**TruePin** is a prototype project aimed at measuring and correcting spatial offset errors in open-source Points of Interest (POI) data, specifically focusing on the [Overture Maps Foundation](https://overturemaps.org/) dataset.
 
-This project focuses on three core pillars:
-1. **Defining Ground Truth:** Establishing strict edge-case rules for where a pin *should* be placed to optimize user routing.
-2. **Measurement:** Building a high-confidence, hand-labeled subset of data to calculate the current spatial offset (Mean, Median, RMSE) of Overture's baseline dataset.
-3. **Modeling:** Exploring spatial grid classification (H3) and structural categorization to prototype automated repositioning logic.
+While POI datasets often drop coordinates in empty parking lots or near the center of massive shopping malls, TruePin seeks to mathematically reposition these pins onto the actual physical building footprints to optimize hyper-local routing and delivery navigation.
 
 ---
 
-## The Data
+## 📊 Final Project Results
 
-### `project_d_samples.parquet`
-The provided raw unannotated sample containing ~5,000 Overture place records used as the base dataset.
+### 1. The Baseline Offset (Overture Error Measurement)
+After building a hand-labeled Ground Truth dataset of 500 real-world locations, the spatial discrepancy (Haversine distance) between the standard Overture coordinate and the true street-facing entrance was measured:
 
-### `ground_truth_labels.csv`
-A foundational dataset built during this project containing 500 high-confidence, hand-labeled coordinates. This data was built by referencing Google Maps Street View to find precise pedestrian and parking lot entrances.
-* **Fields include:** `id`, `primary_name`, `primary_category`, `alternate_categories`, `source_datasets`, original Overture coordinates, and the manually verified Ground Truth coordinates.
+**Global Offset Metrics:**
+* **Mean Error:** 39.08 meters
+* **Median Error:** 12.50 meters
+* **RMSE:** 123.87 meters
+* **90th Percentile:** 66.61 meters
+* **95th Percentile:** 137.43 meters
 
-### `ground_truth_with_errors.csv`
-The analyzed dataset that calculates the exact vector distance between the original Overture pin and the new TruePin coordinate.
-* Uses the **Haversine Formula** to compute offset distance in meters (`offset_meters` column).
+**Error by Structural Category:**
+* **Large Area:** Mean 78.65m / Median 41.27m
+* **Mall or Nested Area:** Mean 67.88m / Median 29.12m
+* **Standalone Store:** Mean 35.27m / Median 11.59m
 
-### `ground_truth_fully_analyzed.csv`
-An advanced dataset that uses an LLM (Google Gemini) to read the name and category of all 500 locations and bucket them into four structural types: *Standalone*, *Mall or Nested*, *Large Area*, and *Skyscraper*. This allows for granular error analysis by property architecture.
+**Error by Data Source:**
+* **Meta Only:** Mean 41.69m / Median 10.90m
+* **Microsoft Only:** Mean 50.95m / Median 19.20m
+* **Both Sources:** Mean 23.08m / Median 10.87m
+
+### 2. The Solution (Uber H3 Spatial Discretization)
+To fix this, the infinite continuous map was discretized into groups of 19 local ~20m hexagonal grids (H3 Resolution 11) surrounding each Overture pin. The task was converted into a Machine Learning classification problem: *"Which of these 19 hexagons contains the actual TruePin?"*
+
+Overture Maps API was used to extract **Building Footprints** and **Road Segments** surrounding each hex to engineer spatial features.
+
+**Spatial Classification Accuracy Results:**
+* **Baseline Accuracy (Leaving pin exactly where Overture put it):** `57.80%`
+* **XGBoost ML Algorithm:** `61.73%`
+* **Rule-Based Heuristic (Snap to nearest building):** `61.75%`
+
+*Conclusion: Both the heuristic and XGBoost model proved that factoring in basic Building Footprints directly increases pinpoint accuracy globally by over ~4.0%.*
 
 ---
 
-## 🛠️ The Tech Stack & Tools
+## 🚀 How to Run the Pipeline
 
-To rapidly build the initial ground-truth dataset, a custom Python web application was developed.
+If you clone this repository, you must run the pipeline sequentially to rebuild the data from scratch:
 
-* **Streamlit & Folium (`label_app.py`):** An interactive UI that loads Overture sample points onto a satellite map. Users can click the map to drop a new pin, pull up Google Street View instantly, and save the verified coordinates directly to CSV.
-* **GeoPandas & Pandas:** Used for massive data extraction, coordinate projection, and calculating spatial baseline errors.
-* **Google Gemini API (`categorize_and_analyze.py`):** Utilized for structural classification, bridging the gap between raw textual categories and physical real-world building architectures.
+**1. Define the Ground Truth Datasets**
+* run `python label_app.py` (A Streamlit application to hand-label ground truth points on a Folium Map).
+* *Outputs: `ground_truth_labels.csv`*
 
-## Running the Project
+**2. Measure Baseline Offsets & Perform Gemini Categorization**
+* run `python calculate_offset.py`
+* run `python categorize_and_analyze.py` (Requires `GEMINI_API_KEY` set in your environment).
+* *Outputs: `ground_truth_with_errors.csv` and `ground_truth_fully_analyzed.csv`*
 
-To run any parts of the TruePin pipeline, ensure you have a Python 3 environment running:
+**3. Build the Spatial Hexagonal Model**
+* run `python build_h3_grid.py` (Discretizes map space via Uber's H3 library).
+* run `python feature_engineering.py` (Downloads live Overture building/road Polygons and calculates intersection/distance matrices).
+* *Outputs: `h3_classification_features.csv`*
 
-```bash
-# Set up environment
-python3 -m venv OverTureVenv
-source OverTureVenv/bin/activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-**To start the manual labeling app:**
-```bash
-streamlit run label_app.py
-```
-
-**To calculate spatial offset baseline error:**
-```bash
-python calculate_offset.py
-```
-
-**To categorize locations and calculate error groups via LLM:**
-```bash
-export GEMINI_API_KEY="your_api_key_here"
-python categorize_and_analyze.py
-```
+**4. Train the ML Models & Visualize**
+* run `python train_model.py` (Trains the XGBoost model).
+* run `python generate_map.py` (Creates interactive Folium visualizations of the worst offset distances).
+* run `python predict_and_visualize.py` (Takes Unseen points, fetches Overture polygons, infers through the XGBoost model, and plots the new positions).
+* *Outputs: `offset_map.html` & `model_prediction_map.html`*
