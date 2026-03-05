@@ -51,7 +51,9 @@ def main():
     print(f"95th Percentile: \t{p95:.2f} meters")
     
     # Save the dataframe with the offset column for analysis
-    out_path = "/Users/giwin/Documents/CRWN 102(New Attempt)/ground_truth_with_errors.csv"
+    # Change this to the path you want to save the file to, but keep the file name the same
+    out_path = "ground_truth_with_errors.csv"
+
     df.to_csv(out_path, index=False)
     print(f"\nSaved dataset with calculated offsets to: {out_path}")
 

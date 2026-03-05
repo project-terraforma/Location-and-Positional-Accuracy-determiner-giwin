@@ -3,7 +3,7 @@ pandas==2.3.3
 streamlit-folium==0.26.2
 folium==0.20.0
 geopandas==1.1.2
-google-generativeai==0.8.0
+google-genai==0.8.0
 h3>=3.7.0
 overturemaps>=0.8.0
 xgboost>=2.0.0

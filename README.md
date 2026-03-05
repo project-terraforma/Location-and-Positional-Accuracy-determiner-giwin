@@ -45,9 +45,12 @@ Overture Maps API was used to extract **Building Footprints** and **Road Segment
 ## 🚀 How to Run the Pipeline
 
 If you clone this repository, you must run the pipeline sequentially to rebuild the data from scratch:
+**0. Set Up**
+* set up a python virtual environment and install the libraries in requirements.txt
+* export your Gemini API Key as export GEMINI_API_KEY='your_api_key_here'
 
 **1. Define the Ground Truth Datasets**
-* run `python label_app.py` (A Streamlit application to hand-label ground truth points on a Folium Map).
+* run `streamlit run label_app.py` (A Streamlit application to hand-label ground truth points on a Folium Map).
 * *Outputs: `ground_truth_labels.csv`*
 
 **2. Measure Baseline Offsets & Perform Gemini Categorization**
