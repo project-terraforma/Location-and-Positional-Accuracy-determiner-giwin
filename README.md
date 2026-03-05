@@ -1,67 +1,67 @@
-# Location and Positional Accuracy Determiner
-
 # TruePin
+**Prototyping a Spatial Repositioning System for Overture Maps**
 
-**Author:** Giwin Vincent Edwin Omesh
+## Project Overview
+The goal of **TruePin** is to assess and correct the spatial positional accuracy of Points of Interest (POIs) in Overture Maps. While Overture provides frequent global map updates, the geographic "pin" locations for many businesses are misaligned based on real-world routing needs (e.g., placing a pin in the center of an inaccessible mall roof rather than the main parking lot entrance).
 
-## Overview
+This project focuses on three core pillars:
+1. **Defining Ground Truth:** Establishing strict edge-case rules for where a pin *should* be placed to optimize user routing.
+2. **Measurement:** Building a high-confidence, hand-labeled subset of data to calculate the current spatial offset (Mean, Median, RMSE) of Overture's baseline dataset.
+3. **Modeling:** Exploring spatial grid classification (H3) and structural categorization to prototype automated repositioning logic.
 
-This project explores the problem of **spatial repositioning of places in large-scale mapping datasets**, with a focus on identifying, measuring, and correcting positional inaccuracies in point-based location data.
+---
 
-Modern global maps are frequently updated, yet **pin placement errors**—where a place is represented at an incorrect or suboptimal location—remain a persistent challenge. These inaccuracies can negatively affect navigation, search relevance, routing, and downstream spatial analytics.
+## The Data
 
-This repository contains a research-driven prototype system that investigates **what a “correct” location actually means**, how to measure deviation from it, and how models can be built to automatically reposition places more accurately.
+### `project_d_samples.parquet`
+The provided raw unannotated sample containing ~5,000 Overture place records used as the base dataset.
 
-## Problem Statement
+### `ground_truth_labels.csv`
+A foundational dataset built during this project containing 500 high-confidence, hand-labeled coordinates. This data was built by referencing Google Maps Street View to find precise pedestrian and parking lot entrances.
+* **Fields include:** `id`, `primary_name`, `primary_category`, `alternate_categories`, `source_datasets`, original Overture coordinates, and the manually verified Ground Truth coordinates.
 
-Mapping datasets often store a single coordinate per place, but real-world locations can be defined in multiple ways (e.g. building centroid, entrance, parcel center, or activity hotspot). Without a clear definition of “ground truth,” spatial errors are difficult to quantify or fix.
+### `ground_truth_with_errors.csv`
+The analyzed dataset that calculates the exact vector distance between the original Overture pin and the new TruePin coordinate.
+* Uses the **Haversine Formula** to compute offset distance in meters (`offset_meters` column).
 
-This project aims to:
-- Identify suitable definitions for pin placement
-- Quantify spatial offsets in existing place data
-- Prototype modeling approaches to improve positional accuracy
+### `ground_truth_fully_analyzed.csv`
+An advanced dataset that uses an LLM (Google Gemini) to read the name and category of all 500 locations and bucket them into four structural types: *Standalone*, *Mall or Nested*, *Large Area*, and *Skyscraper*. This allows for granular error analysis by property architecture.
 
-## Project Goals
+---
 
-- **Define ground-truth pin locations** for places and evaluate their strengths and weaknesses
-- **Measure spatial offset** between existing map data and ground truth
-- **Prototype repositioning models** that select more accurate coordinates
-- **Provide recommendations** for scalable future improvements
+## 🛠️ The Tech Stack & Tools
 
-## Data
+To rapidly build the initial ground-truth dataset, a custom Python web application was developed.
 
-- Uses a provided sample of ~5,000 places from the Overture dataset
-- Constructs a manually curated **ground-truth dataset** (target size: 500–1,000 places)
-- Compares current place coordinates against validated reference locations
+* **Streamlit & Folium (`label_app.py`):** An interactive UI that loads Overture sample points onto a satellite map. Users can click the map to drop a new pin, pull up Google Street View instantly, and save the verified coordinates directly to CSV.
+* **GeoPandas & Pandas:** Used for massive data extraction, coordinate projection, and calculating spatial baseline errors.
+* **Google Gemini API (`categorize_and_analyze.py`):** Utilized for structural classification, bridging the gap between raw textual categories and physical real-world building architectures.
 
-## Research Questions
+## Running the Project
 
-- What are the most meaningful definitions of a place’s location?
-- How should positional error be measured in a consistent and interpretable way?
-- What modeling approaches work best for spatial repositioning?
-- How can geographic space be discretized effectively for prediction?
-- Which spatial and contextual features are most informative?
+To run any parts of the TruePin pipeline, ensure you have a Python 3 environment running:
 
-## Deliverables
+```bash
+# Set up environment
+python3 -m venv OverTureVenv
+source OverTureVenv/bin/activate
 
-- A working definition of accurate pin placement
-- Quantitative analysis of positional offsets in the dataset
-- A prototype repositioning model
-- Evaluation results and recommendations for future work
+# Install dependencies
+pip install -r requirements.txt
+```
 
-## Skills & Concepts Covered
+**To start the manual labeling app:**
+```bash
+streamlit run label_app.py
+```
 
-- Spatial data analysis
-- Geospatial error measurement
-- Ground-truth dataset construction
-- Rapid prototyping and experimentation
-- Constrained problem definition in real-world systems
+**To calculate spatial offset baseline error:**
+```bash
+python calculate_offset.py
+```
 
-## Project Status
-
-🚧 **Work in progress** — this repository will evolve as experimentation, modeling, and evaluation continue.
-
-## Commit 1 - Discoveries on the data set
-- Data is in Well Known Binary Format
-- Contains 3425 points of data
-- 9 points are outside the boundary box of said data points
+**To categorize locations and calculate error groups via LLM:**
+```bash
+export GEMINI_API_KEY="your_api_key_here"
+python categorize_and_analyze.py
+```
