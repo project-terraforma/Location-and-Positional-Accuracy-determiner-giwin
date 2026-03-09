@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruePin: Spatial Repositioning Demo</title>
+    <!-- Modern, clean fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <main class="scrolly-container">
+        <!-- Scrollable Narrative Section -->
+        <article class="narrative">
+            <header class="hero">
+                <h1>TruePin</h1>
+                <p class="subtitle">Spatial Repositioning Prototype</p>
+                <div class="scroll-prompt">Scroll to explore <br>↓</div>
+            </header>
+
+            <section class="step" data-step="1">
+                <div class="step-content">
+                    <div class="step-number">01</div>
+                    <h2>The Baseline Offset Error</h2>
+                    <p>Points of Interest (POI) data obtained from open-source maps like Overture frequently drop
+                        coordinate pins in the middle of empty parking lots or near the center of massive shopping
+                        malls, rather than the true street-facing entrance of the building.</p>
+                    <div class="metrics-grid">
+                        <div class="metric"><span class="value">39m</span> <span class="label">Mean Error</span></div>
+                        <div class="metric"><span class="value">124m</span> <span class="label">RMSE</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="step" data-step="2">
+                <div class="step-content">
+                    <div class="step-number">02</div>
+                    <h2>Uber H3 Spatial Discretization</h2>
+                    <p>To systematically fix this, we discretize the continuous map around each erroneous pin into a
+                        local neighborhood of 19 hexagons (K-Ring 2) using Uber's H3 library at Resolution 11 (~20m
+                        width).</p>
+                    <p>We convert the repositioning task into a machine learning classification problem: <strong>"Which
+                            of these 19 surrounding hexagons contains the actual true entrance?"</strong></p>
+                </div>
+            </section>
+
+            <section class="step" data-step="3">
+                <div class="step-content">
+                    <div class="step-number">03</div>
+                    <h2>Adding Structural Context</h2>
+                    <p>Before classification, the model needs context. We query the Overture Maps API to extract live
+                        Building Footprints and Road Segments within the grid, engineering features like the physical
+                        area of buildings inside each hexagon or its distance to the nearest roadway.</p>
+                </div>
+            </section>
+
+            <section class="step" data-step="4">
+                <div class="step-content">
+                    <div class="step-number">04</div>
+                    <h2>The XGBoost Solution</h2>
+                    <p>An XGBoost Machine Learning model ingests this structural context and predicts the most likely
+                        hexagon.</p>
+                    <p>By factoring in physical building footprints via this discretized spatial model, TruePin
+                        mathematically snaps the inaccurate Overture POIs onto actual building structures, drastically
+                        boosting global pinpoint accuracy for delivery optimization.</p>
+                </div>
+            </section>
+
+            <section class="step" data-step="5" style="margin-bottom: 30vh;">
+                <div class="step-content"
+                    style="border-color: rgba(16, 185, 129, 0.4); box-shadow: 0 30px 60px rgba(0,0,0,0.7), 0 0 40px rgba(16, 185, 129, 0.2);">
+                    <div class="step-number" style="color: #10b981;">05</div>
+                    <h2>Success Story: Snapping to Structure</h2>
+                    <p>Let's look at a concrete example. For this Burlington Outlet Village location, Overture dropped
+                        the original pin almost <strong>344 meters away</strong> from the true entrance in the middle of
+                        a massive parking lot.</p>
+                    <p>By analyzing the structural context within the localized H3 grid, the model successfully
+                        identified the correct hexagon containing the building footprint, snapping the pin back to
+                        reality.</p>
+                    <ul
+                        style="list-style-type: none; padding-left: 0; margin-top: 1rem; color: #94a3b8; font-size: 0.9rem;">
+                        <li><span style="color:#ef4444; font-size: 1.2rem;">●</span> Original Overture Pin</li>
+                        <li><span style="color:#ffffff; font-size: 1.2rem;">●</span> Actual True Entrance</li>
+                        <li><span style="color:#10b981; font-size: 1.2rem;">●</span> XGBoost Predicted Pin</li>
+                        <li><span style="color:#3b82f6; font-size: 1.2rem;">■</span> Overture Building Polygon</li>
+                    </ul>
+                </div>
+            </section>
+
+            <div class="footer-spacer"></div>
+        </article>
+
+        <!-- Fixed Map Container -->
+        <aside class="map-container">
+            <div class="map-wrapper active" id="map-1">
+                <iframe src="offset_map.html" frameborder="0"></iframe>
+            </div>
+            <div class="map-wrapper" id="map-2">
+                <iframe src="uber_h3_visualization.html" frameborder="0"></iframe>
+            </div>
+            <!-- Re-using uber_h3_visualization for step 3 to give the impression of the context loading -->
+            <div class="map-wrapper" id="map-3">
+                <iframe src="uber_h3_visualization.html" frameborder="0"></iframe>
+            </div>
+            <div class="map-wrapper" id="map-4">
+                <iframe src="model_prediction_map.html" frameborder="0"></iframe>
+            </div>
+            <div class="map-wrapper" id="map-5">
+                <iframe src="success_map.html" frameborder="0"></iframe>
+            </div>
+        </aside>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

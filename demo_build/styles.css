@@ -1,0 +1,227 @@
+/* Premium Dark Mode Scrollytelling Design */
+
+:root {
+    --bg-color: #0b0f19;
+    --text-primary: #f8fafc;
+    --text-secondary: #94a3b8;
+    --accent-color: #3b82f6;
+    --accent-glow: rgba(59, 130, 246, 0.4);
+    --border-color: #1e293b;
+    --card-bg: rgba(30, 41, 59, 0.8);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Layout */
+.scrolly-container {
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.narrative {
+    width: 40%;
+    padding: 0 4rem;
+    position: relative;
+    z-index: 10;
+    /* subtle background blur for text readability */
+    background: linear-gradient(90deg, var(--bg-color) 70%, transparent);
+}
+
+.map-container {
+    width: 60%;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    border-left: 1px solid var(--border-color);
+}
+
+/* Map Wrappers */
+.map-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.8s ease-in-out, visibility 0.8s;
+}
+
+.map-wrapper.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.map-wrapper iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    /* Optional: CSS filter to make Folium maps fit dark mode better */
+    filter: invert(90%) hue-rotate(180deg) brightness(85%) contrast(110%);
+}
+
+/* Typography & Content Sections */
+header.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header.hero h1 {
+    font-size: 4.5rem;
+    font-weight: 800;
+    letter-spacing: -2px;
+    background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0.5rem;
+}
+
+header.hero .subtitle {
+    font-size: 1.25rem;
+    color: var(--accent-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.scroll-prompt {
+    position: absolute;
+    bottom: 3rem;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-10px); }
+    60% { transform: translateY(-5px); }
+}
+
+/* Steps */
+.step {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    opacity: 0.3;
+    transition: opacity 0.5s ease;
+}
+
+.step.is-active {
+    opacity: 1;
+}
+
+.step-content {
+    background: var(--card-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--border-color);
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    transform: translateY(20px);
+    transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.8s ease;
+}
+
+.step.is-active .step-content {
+    transform: translateY(0);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.7), 0 0 40px var(--accent-glow);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.step-number {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+    letter-spacing: 2px;
+}
+
+.step h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    color: var(--text-primary);
+}
+
+.step p {
+    font-size: 1.125rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+}
+
+/* Metrics UI */
+.metrics-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border-color);
+}
+
+.metric .value {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #ef4444; /* red for error */
+}
+
+.metric .label {
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-secondary);
+}
+
+.footer-spacer {
+    height: 50vh;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+    .scrolly-container {
+        flex-direction: column;
+    }
+    
+    .map-container {
+        width: 100%;
+        height: 50vh;
+        position: fixed;
+        z-index: 1;
+        border-left: none;
+        border-bottom: 1px solid var(--border-color);
+    }
+    
+    .narrative {
+        width: 100%;
+        padding: 0 2rem;
+        margin-top: 50vh;
+        z-index: 10;
+        background: var(--bg-color);
+    }
+    
+    .step {
+        padding: 2rem 0;
+    }
+}

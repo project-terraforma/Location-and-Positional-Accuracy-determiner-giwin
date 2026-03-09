@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Uber H3 Visualization - TruePin K-Ring 2</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/h3-js@4.1.0/dist/h3-js.umd.js"></script>
+    <style>
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            margin: 0; 
+            padding: 40px; 
+            background-color: #f8f9fa; 
+            color: #333; 
+        }
+        .container { 
+            max-width: 1400px; 
+            margin: 0 auto; 
+            display: flex; 
+            gap: 40px; 
+            align-items: center; 
+        }
+        .info-panel { 
+            flex: 1; 
+            padding: 30px; 
+            background: white; 
+            border-radius: 12px; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.08); 
+        }
+        .map-panel { 
+            flex: 1.5; 
+            height: 700px; 
+            border-radius: 12px; 
+            overflow: hidden; 
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15); 
+            border: 4px solid white;
+        }
+        #map { width: 100%; height: 100%; }
+        
+        h1 { color: #2c3e50; font-size: 28px; margin-top: 0; border-bottom: 2px solid #eee; padding-bottom: 15px; }
+        h2 { color: #2980b9; font-size: 20px; margin-bottom: 8px; margin-top: 25px;}
+        p { line-height: 1.6; color: #555; font-size: 16px; margin-top: 0;}
+        
+        .quote-box {
+            background-color: #f0f7fb;
+            border-left: 4px solid #3498db;
+            padding: 15px 20px;
+            font-style: italic;
+            border-radius: 0 8px 8px 0;
+            margin: 15px 0;
+            color: #2c3e50;
+            font-family: Georgia, serif;
+        }
+        
+        .feature-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .feature-list li {
+            padding: 8px 0 8px 25px;
+            position: relative;
+        }
+        .feature-list li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #e67e22;
+            font-weight: bold;
+        }
+        
+        .legend { margin-top: 30px; background: #fafafa; padding: 15px; border-radius: 8px; border: 1px solid #eee; }
+        .legend h3 { margin-top: 0; margin-bottom: 15px; font-size: 16px; color: #7f8c8d; text-transform: uppercase; letter-spacing: 1px; }
+        .legend-item { display: flex; align-items: center; margin-bottom: 12px; }
+        .legend-item:last-child { margin-bottom: 0; }
+        .legend-color { width: 30px; height: 30px; border-radius: 6px; margin-right: 15px; }
+        .color-center { background-color: rgba(52, 152, 219, 0.4); border: 3px solid #2980b9; }
+        .color-candidate { background-color: rgba(236, 240, 241, 0.6); border: 2px solid #bdc3c7; }
+        .color-truepin { background-color: rgba(46, 204, 113, 0.4); border: 3px solid #27ae60; }
+        .legend-text strong { display: block; color: #2c3e50; margin-bottom: 2px; }
+        .legend-text span { font-size: 13px; color: #7f8c8d; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="info-panel">
+        <h1>Spatial Discretization</h1>
+        
+        <h2>The Challenge</h2>
+        <p>Predicting continuous, infinite latitude/longitude coordinates is mathematically complex.</p>
+        
+        <h2>Discretizing Space</h2>
+        <p>We converted the continuous map into discrete bounds using <strong>Uber's H3 Hexagonal Grid</strong> (Resolution 11 / ~20m diameter).</p>
+        
+        <h2>Creating a Neighborhood</h2>
+        <p>For each Overture point, we generated a <strong>19-hexagon neighborhood (K-Ring 2)</strong> and framed the problem as a classification challenge:</p>
+        
+        <div class="quote-box">
+            "Which of these 19 hexagons holds the TruePin?"
+        </div>
+        
+        <h2>Feature Engineering</h2>
+        <p>We queried the Overture Maps API for every hexagon to extract structural context:</p>
+        <ul class="feature-list">
+            <li>Distance to Road Segments</li>
+            <li>Location of Building Footprints</li>
+            <li>Max Intersecting Building Area</li>
+        </ul>
+        
+        <div class="legend">
+            <h3>Visual Guide</h3>
+            <div class="legend-item">
+                <div class="legend-color color-center"></div>
+                <div class="legend-text">
+                    <strong>Center Hexagon</strong>
+                    <span>Origin Overture Point</span>
+                </div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-candidate"></div>
+                <div class="legend-text">
+                    <strong>Candidate Hexagons</strong>
+                    <span>The K-Ring 2 search space</span>
+                </div>
+            </div>
+            <div class="legend-item">
+                <div class="legend-color color-truepin"></div>
+                <div class="legend-text">
+                    <strong>TruePin Hexagon</strong>
+                    <span>Ground Truth Target (Class 1)</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="map-panel">
+        <div id="map"></div>
+    </div>
+</div>
+
+<script>
+    // Initialize map centered on an urban location (Financial District, SF)
+    const centerLat = 37.7942;
+    const centerLng = -122.4005;
+    
+    // Create Leaflet map, disable zooming for a static "slide-like" feel that's easy to screenshot
+    const map = L.map('map', {
+        zoomControl: false,
+        scrollWheelZoom: false
+    }).setView([centerLat, centerLng], 19);
+    
+    // Smooth Carto Positron basemap (excellent for data visualization slides)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
+        subdomains: 'abcd',
+        maxZoom: 20
+    }).addTo(map);
+
+    // H3 configurations
+    const resolution = 11;
+    const kRingSize = 2; 
+    
+    // 1. Get center hex
+    const centerHex = h3.latLngToCell(centerLat, centerLng, resolution);
+    
+    // 2. Get the neighborhood (19 hexes for K-Ring 2)
+    const neighborhood = h3.gridDisk(centerHex, kRingSize);
+    
+    // 3. Choose one specific hex as the "TruePin" (Target) for narrative purposes.
+    // Pick something 2 rings out so it visually tells the story of "repositioning".
+    const truePinHex = neighborhood[15]; 
+    
+    // 4. Draw the hexagons
+    neighborhood.forEach(hex => {
+        const boundary = h3.cellToBoundary(hex);
+        
+        let fillColor = 'rgba(236, 240, 241, 0.4)';
+        let color = '#bdc3c7';
+        let weight = 2;
+        let fillOpacity = 0.5;
+        let tooltipText = "<b>Candidate Hexagon</b><br>Extracting structural context...";
+        
+        if (hex === centerHex) {
+            fillColor = 'rgba(52, 152, 219, 0.4)';
+            color = '#2980b9';
+            weight = 4;
+            fillOpacity = 0.6;
+            tooltipText = "<b>Center Hexagon</b><br>Generated from Original Overture Point";
+        } else if (hex === truePinHex) {
+            fillColor = 'rgba(46, 204, 113, 0.4)';
+            color = '#27ae60';
+            weight = 4;
+            fillOpacity = 0.6;
+            tooltipText = "<b>TruePin Hexagon</b><br>Label: 1 (Ground Truth Found Here)";
+        }
+
+        const polygon = L.polygon(boundary, {
+            color: color,
+            weight: weight,
+            fillColor: fillColor,
+            fillOpacity: fillOpacity,
+            lineJoin: 'round'
+        }).addTo(map);
+        
+        polygon.bindTooltip(tooltipText, { direction: 'top' });
+        
+        // Interactive hover just to make it feel alive if they present it live
+        polygon.on('mouseover', function() {
+            this.setStyle({ fillOpacity: 0.8 });
+        });
+        polygon.on('mouseout', function() {
+            this.setStyle({ fillOpacity: fillOpacity });
+        });
+    });
+    
+    // Add original Overture Point marker
+    L.circleMarker([centerLat, centerLng], {
+        radius: 6,
+        color: '#2c3e50',
+        fillColor: '#34495e',
+        fillOpacity: 1,
+        weight: 2
+    }).addTo(map).bindTooltip("Original Overture Point", {direction: 'right', permanent: true}).openTooltip();
+    
+    // Add TruePin marker
+    const truePinCenter = h3.cellToLatLng(truePinHex);
+    // Shift slightly from exact center so it looks organic
+    const offsetTruePinLat = truePinCenter[0] + 0.00003;
+    const offsetTruePinLng = truePinCenter[1] - 0.00002;
+    
+    L.circleMarker([offsetTruePinLat, offsetTruePinLng], {
+        radius: 6,
+        color: '#145a32',
+        fillColor: '#27ae60',
+        fillOpacity: 1,
+        weight: 2
+    }).addTo(map).bindTooltip("TruePin Location", {direction: 'right', permanent: true}).openTooltip();
+
+    // Auto-fit bounds with generous padding so tooltip isn't cut off
+    const allBoundaries = neighborhood.flatMap(hex => h3.cellToBoundary(hex));
+    map.fitBounds(L.polyline(allBoundaries).getBounds(), { padding: [60, 60] });
+
+</script>
+</body>
+</html>
